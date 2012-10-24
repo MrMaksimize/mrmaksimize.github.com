@@ -1,0 +1,64 @@
+ <!-- Top Bar -->
+
+ <div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+      <div class="nav-collapse" id="main-menu">
+        <ul class="nav" id="main-menu-left">
+          <li><a href="whoami.html">whoami</a></li>
+        </ul>
+        <ul class="nav pull-right" id="main-menu-right">
+          {% if site.author.github %}
+          <li>
+            <a href="https://www.github.com/{{ site.author.github }}" class="github" target="_blank">github</a>
+          </li>
+         {% endif %}
+         {% if site.author.googleplus %}
+          <li>
+            <a href="https://profiles.google.com/{{ site.author.google }}" class="zocial googleplus icon" target="_blank">
+              Google+
+            </a>
+          </li>
+        {% endif %}    
+        {% if site.author.twitter %}
+          <li>
+            <a href="http://www.twitter.com/{{ site.author.twitter }}" class="zocial twitter icon" target="_blank">
+              twitter
+            </a>
+          </li>
+        {% endif %}                          
+        {% if site.author.facebook %}
+          <li>
+            <a href="http://www.facebook.com/{{ site.author.facebook }}" class="zocial facebook icon" target="_blank">
+             Facebook
+            </a>
+          </li>
+        {% endif %}           
+        {% if site.author.linkedin %}
+          <li>
+            <a href="http://www.linkedin.com/in/{{ site.author.linkedin }}" class="zocial linkedin icon" target="_blank">
+              LinkedIn
+            </a>
+          </li>
+        {% endif %}                    
+        {% if site.author.feedburner %}
+          <li>
+            <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}" class="zocial rss icon" target="_blank">
+              feed
+            </a>
+          </li>
+        {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- End Top Bar -->

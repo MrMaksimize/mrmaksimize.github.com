@@ -1,0 +1,16 @@
+<div class="span9">
+    <div class="page-header">
+      <h1>
+        {{ page.title }} 
+        {% if page.tagline %}
+          <h4 class="subheader">{{ page.tagline }}</h4>
+        {% endif %}
+      </h1>
+    </div>
+    {% if page.image %}
+      <div class="span5 pull-right"><img class="img-polaroid" src="{{ page.image }}"/></div>
+    {% endif %}
+    {{ content }}
+
+</div>
+{% include themes/cyborg_twitter/sidebar.html %}
