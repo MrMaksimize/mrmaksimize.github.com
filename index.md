@@ -1,6 +1,6 @@
 ---
 layout: front
-title: Hello World!
+title: MrMaksimize!
 tagline: Supporting tagline
 ---
 <ul>
