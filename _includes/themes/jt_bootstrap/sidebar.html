@@ -1,0 +1,24 @@
+<!-- Sidebar -->
+
+    <aside class="span3">
+
+      <h5>Categories</h5>
+      <ul class="nav nav-list">
+        {% assign categories_list = site.categories %}  
+        {% include JB/categories_list %}
+      </ul>
+      <hr/>
+      <h5>Tags</h5>
+      <ul class="nav nav-list">
+        {% assign tags_list = site.tags %}
+        {% include JB/tags_list %}
+      </ul>
+      <hr/>
+      <a class="twitter-timeline" href="https://twitter.com/MrMaksimize" data-widget-id="260773485696126977">Tweets</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+      
+
+    </aside>
+
+    <!-- End Sidebar -->
