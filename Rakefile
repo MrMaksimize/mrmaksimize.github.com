@@ -40,6 +40,16 @@ module JB
   end #Path
 end #JB
 
+#desc "Create GeoJSON"
+#task :geoJSON do
+ # filename = "#{ENV['type']}_geojson.js";
+  #puts "Creating new post: #{filename}"
+  #ob1 = Object.new
+  
+  #open(filename, 'w') do |geojson|
+  #end
+#end
+
 # Usage: rake post title="A Title" [date="2012-02-09"]
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
