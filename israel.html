@@ -39,7 +39,7 @@ attributes: [maps]
         // Retrieve Photos from Flickr:
         var flickKey = '5185b66b87a1345f857fc311b059f7a0';
         var flickSecret = 'a2fa9fe8c981e97c';
-        var flickURL =  'http://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=4781fb2d2d512a576426e4bc92591a65&photoset_id=72157632247404667&extras=geo,date_taken,path_alias,url_s,url_m,url_o&format=json&jsoncallback=?';
+        var flickURL =  'http://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=' + flickKey + '&photoset_id=72157632247404667&extras=geo,date_taken,path_alias,url_s,url_m,url_o&format=json&jsoncallback=?';
         $.ajax({
             url: flickURL,
             type: 'GET',
