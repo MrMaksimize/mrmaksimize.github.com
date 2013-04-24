@@ -16,6 +16,7 @@ author :
   email : max@maksimize.com
   github : MrMaksimize
   twitter : MrMaksimize
+  linkedin : maxpecherskiy
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -80,7 +81,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : mrmaksimize
     livefyre :
       site_id : 123
     intensedebate :
@@ -125,3 +126,6 @@ JB :
   
   posts_collate:
     provider : "custom"
+  categories_list:
+    provider: "custom"
+
