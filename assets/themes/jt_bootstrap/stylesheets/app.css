@@ -31,6 +31,10 @@ body{
     padding-top:10px;
 }
 
+img {
+    padding:10px;
+}
+
 
 article {
     min-height: 337px;
