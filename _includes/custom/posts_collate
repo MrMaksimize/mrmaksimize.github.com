@@ -29,7 +29,7 @@ Usage:
       <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
       <h6>Written by <a href="#">{{ site.author.name }}</a> on {{ post.date | date_to_long_string }}.</h6>
       {% if post.image %}
-        <div class="span5 pull-right"><img class="img-polaroid" src="{{ post.image }}"/></div>
+       <div class="span5 pull-right main-post-image-container"><img class="img-polaroid main-post-image" src="{{ post.image }}"/></div>
       {% endif %}
         {{ post.content }}
     </article>
