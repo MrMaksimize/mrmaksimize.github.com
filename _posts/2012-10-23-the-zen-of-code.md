@@ -18,7 +18,10 @@ The days are getting shorter and the problems are getting smaller, until you're 
 
 You get back to drawing board and try to figure out what get_mapped_tree_nodes($id, $level, $active, &$tree) does.  Think about it for a while and can't remember. Man should've documented this. Let's debug. A few repeats of this later, angry and confused you finally finish and complete the requirements. Great! You're done!
 
+
 Submit your pull request, get your peers to review. Approve Approve! Let's get this in!  After the merge, you guys realize that you just crashed your production environment because bad coding standards made your reviewers miss a major bug. Try to see what caused it. Which commit was this? Was it `Add pf3 to ln42` or `Add pf2 to gs43`? Nuff said.
+
+<!--break-->
 
 A month later another project requires very similar functionality, but because you failed to properly abstract your functions, you can't just pull them out or reuse them. On top of that, you don't know what half of them do, and the datasets you used for testing before are gone. Sigh. Another 3 weeks of sleepless nights. Let's write more code. 
 

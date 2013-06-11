@@ -16,6 +16,8 @@ The menu items created when you're creating content, views or panels override an
 In addition, the way that menu items are stored in features, they get explicitly linked to node id.  So if you have a page on dev that's node/5 and the same page that lives on staging that's at node/6 and prod is node/7, it's extremely different to move menu configurations across environments. 
  
 This was causing a ton of wasted time and even more frustration. 
+
+<!--break-->
  
 Anyway, long story short, I needed a way to manage the menus on the site with an extremely firm grip. 
  

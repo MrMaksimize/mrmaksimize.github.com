@@ -13,6 +13,8 @@ Well this sucks.  Apparently these days you can only use the Interface Builder t
 
 I'm assuming you already know so iOS and objective C, so I'll save the prep for another blog post.  Let's get down to business.
 
+<!--break-->
+
 You have your TableViewController.h and .m files ready. Now you want to create a sleek custom cell.  
 
 Create a new file (File -> New -> Objective C Class -> Subclass of UITableViewCell).  Note that the option to create a XIB for user interface is not available.  That's fine for now.  Let's call this class `EXCustomCell`. 

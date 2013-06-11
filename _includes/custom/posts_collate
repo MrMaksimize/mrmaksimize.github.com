@@ -31,7 +31,10 @@ Usage:
       {% if post.image %}
        <div class="span5 pull-right main-post-image-container"><img class="img-polaroid main-post-image" src="{{ post.image }}"/></div>
       {% endif %}
-        {{ post.content }}
+        {{ post.content | split:'<!--break-->' | first }}
+        {% if post.content contains '<!--break-->' %}
+           <a href="{{ post.url }}">read more</a>
+        {% endif %}
     </article>
    
   
