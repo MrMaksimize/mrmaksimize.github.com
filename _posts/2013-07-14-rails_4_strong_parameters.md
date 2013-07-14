@@ -34,11 +34,13 @@ The long and short of it is this.
     {% endhighlight %}
 
 And finally, updated my Create controller accordingly:
+   {% highlight ruby %}
     def create
       @article = Article.new(article_params)
       @article.save
       redirect_to article_path(@article)
     end
+    {% endhighlight %}
 
 Definitely learned something useful.  You can also use permit to allow certain users to edit certain fields if you wish as well.
 
