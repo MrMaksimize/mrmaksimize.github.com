@@ -22,10 +22,11 @@ I tried this and got an error saying this was deprecated in Rails 4 and has been
 After a bit of googling around, I found [a great article from RubySource](http://rubysource.com/rails-4-quick-look-strong-parameters/).
 
 The long and short of it is this.
-* The protected parameters is a separate gem now, but is included in Rails 4
-* I added `config.active_record.whitelist_attributes = true` to config/application.rb
-* Added `include ActiveModel::ForbiddenAttributesProtection` to my Articles model.
-* Added the following method to my articles controller:
+
+  * The protected parameters is a separate gem now, but is included in Rails 4
+  * I added `config.active_record.whitelist_attributes = true` to config/application.rb
+  * Added `include ActiveModel::ForbiddenAttributesProtection` to my Articles model.
+  * Added the following method to my articles controller:
 
     {% highlight ruby %}
     def article_params
