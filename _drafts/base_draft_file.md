@@ -2,8 +2,7 @@
 layout: post
 title: ""
 description: ""
-category: 
-tags: 
-image: wq
+category:
+image:
 ---
 {% include JB/setup %}
