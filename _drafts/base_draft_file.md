@@ -3,6 +3,6 @@ layout: post
 title: ""
 description: ""
 category:
-image:
+image: ""
 ---
 {% include JB/setup %}
