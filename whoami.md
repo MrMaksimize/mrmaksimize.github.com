@@ -17,5 +17,6 @@ I'm always learning new things in the areas that I know and more importantly thi
 I'm an avid traveler and enjoy learning and interacting with new cultures, meeting new people, and arguing viewpoints that differ from mine. I adapt quickly to new cultures and always seek to push my comfort limits. I speak Russian, English, a decent amount of Spanish and just a little bit of French (I really mean very little).
 
 I also love animals. And so does my wonderful girlfriend Amy, who I have the pleasure of living with.
+
 We have one one cool cat (Clifton), one fat cat (Kuma - aptly named after a burger joint), one crazy dog (Willow) and one chill dog (Sadie).
 
