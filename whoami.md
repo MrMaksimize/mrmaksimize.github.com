@@ -3,7 +3,6 @@ published: "true"
 layout: page
 title: whoami
 image: /assets/images/user_profile.png
-
 ---
 
 I love to create. To build. To see things grow and mature. I like figuring out new things and new languages and there's nothing more satisfying than having a creation come to life. I thrive on complexity and challenges, and being bored is by far my biggest fear.

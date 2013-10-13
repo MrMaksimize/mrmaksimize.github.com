@@ -1,16 +1,33 @@
-<div class="span9">
-    <div class="page-header">
-      <h1>
-        {{ page.title }} 
-        {% if page.tagline %}
-          <h4 class="subheader">{{ page.tagline }}</h4>
-        {% endif %}
-      </h1>
-    </div>
-    {% if page.image %}
-      <div class="span5 pull-right main-post-image-container"><img class="img-polaroid main-post-image" src="{{ page.image }}"/></div>
-    {% endif %}
-    {{ content }}
+<div class="col-lg-8">
+  <h1>
+    {{ page.title }}
+  </h1>
+  <p class="lead">by <a href="/">{{ site.author.name }}</a></p>
+
+  <hr>
+  
+  <p><span class="glyphicon glyphicon-time"></span> {{ page.date | date_to_long_string }}</p>
+  
+  <hr>
+  
+  {% if page.image %}
+      <!--<div class="span5 pull-right main-post-image-container"><img class="img-polaroid main-post-image" src="{{ page.image }}"/></div>-->
+       <img src="http://placehold.it/900x300" class="img-responsive">
+  {% endif %}
+
+  <hr>
+
+  {% if page.lead %}
+      <p class="lead">{{ page.lead }}</p>
+  {% endif %}
+
+  {{ content }}
+  <div class="well">
     {% include JB/comments %}
+  </div>
+
 </div>
-{% include themes/jt_bootstrap/sidebar.html %}
+
+<div class="col-lg-4">
+  {% include themes/jt_bootstrap/sidebar.html %}
+</div>
