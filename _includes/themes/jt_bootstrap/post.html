@@ -4,18 +4,16 @@
   </h1>
   <p class="lead">by <a href="/">{{ site.author.name }}</a></p>
 
-  <hr>
+  <hr class="clearfix col-lg-12 col-md-12 col-sm-12">
   
   <p><span class="glyphicon glyphicon-time"></span> {{ page.date | date_to_long_string }}</p>
   
-  <hr>
+  <hr class="clearfix col-lg-12 col-md-12 col-sm-12">
   
   {% if page.image %}
-      <!--<div class="span5 pull-right main-post-image-container"><img class="img-polaroid main-post-image" src="{{ page.image }}"/></div>-->
-       <img src="http://placehold.it/900x300" class="img-responsive">
+       <img src="{{ page.image }}" class="img-responsive posts-collate-img col-lg-4 col-md-4 col-sm-12">
+       <hr class="clearfix col-lg-12 col-md-12 col-sm-12">
   {% endif %}
-
-  <hr>
 
   {% if page.lead %}
       <p class="lead">{{ page.lead }}</p>

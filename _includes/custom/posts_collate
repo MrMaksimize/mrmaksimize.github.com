@@ -19,6 +19,7 @@ Usage:
 
 
 {% for post in posts_collate  %}
+
   {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
   {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
   {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
@@ -28,22 +29,23 @@ Usage:
 
   <h1><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
   <p class="lead">by <a href="#">{{ site.author.name }}</a></p>
-  <hr>
+  <hr class="clearfix col-lg-12 col-md-12 col-sm-12">
   <p><span class="glyphicon glyphicon-time"></span> {{ post.date | date_to_long_string }}</p>
-  <hr>
+  <hr class="clearfix col-lg-12 col-md-12 col-sm-12">
+  
   {% if post.image %}
-    <!--<div class="span5 pull-right main-post-image-container"><img class="img-polaroid main-post-image" src="{{ post.image }}"/></div>-->
-    <img src="http://placehold.it/900x300" class="img-responsive">
+  <img src="{{ post.image }}" class="img-responsive posts-collate-img col-lg-4 col-md-4 col-sm-12">
+  <hr class="clearfix col-lg-12 col-md-12 col-sm-12">
   {% endif %}
-  <hr>
 
   {{ post.content | split:'<!--break-->' | first }}
-  
+    
   {% if post.content contains '<!--break-->' %}
-     <a class="btn btn-primary" href="{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+  <a class="btn btn-primary" href="{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
   {% endif %}
+  
  
-  <hr>
+  <hr class="clearfix col-lg-12 col-md-12 col-sm-12">
 
 {% endfor %}
 

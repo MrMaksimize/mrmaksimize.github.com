@@ -3,14 +3,13 @@
     {{ page.title }}
   </h1>
 
-  <hr>
+  <hr class="clearfix col-lg-12 col-md-12 col-sm-12">
   
   {% if page.image %}
-      <!--<div class="span5 pull-right main-post-image-container"><img class="img-polaroid main-post-image" src="{{ page.image }}"/></div>-->
-       <img src="http://placehold.it/900x300" class="img-responsive">
+       <img src="{{ page.image }}" class="img-responsive">
   {% endif %}
 
-  <hr>
+  <hr class="clearfix col-lg-12 col-md-12 col-sm-12">
 
   {% if page.lead %}
       <p class="lead">{{ page.lead }}</p>
