@@ -1,23 +1,49 @@
-<div class="col-lg-8">
-  <h1>
-    {{ page.title }}
-  </h1>
+<div class="col-lg-8 blog-main">
+  <article class="blog-post">
+    <header>
+        <h1>{{ page.title }}</h1>
+        {% if page.image %}
+        <div class="lead-image">
+            <img src="{{ page.image }}" alt="Hands" class="img-responsive post-image">
+        </div>
+        {% endif %}
+    </header>
+    <div class="body">
 
-  <hr class="clearfix col-lg-12 col-md-12 col-sm-12">
-  
-  {% if page.image %}
-       <img src="{{ page.image }}" class="img-responsive">
-  {% endif %}
+        {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
+        
+        {{ content }}
 
-  <hr class="clearfix col-lg-12 col-md-12 col-sm-12">
+    </div>
+    </article>
+    {% if page.social %}
+    <aside class="social-icons clearfix">
+    <a href="#" class="social-icon color-one">
+            <div class="inner-circle" ></div>
+            <i class="icon-twitter"></i>
+    </a>
 
-  {% if page.lead %}
-      <p class="lead">{{ page.lead }}</p>
-  {% endif %}
+    <a href="#" class="social-icon color-two">
+            <div class="inner-circle" ></div>
+            <i class="icon-google-plus"></i>
+    </a>    
 
-  {{ content }}
-</div>
+    <a href="#" class="social-icon color-three">
+            <div class="inner-circle" ></div>
+            <i class="icon-facebook"></i>
+    </a>
+    </aside>
+    {% endif %}
+    {% if page.comments %}
+    <aside class="comments" id="comments">
+      <!--<h2><i class="icon-comments"></i> <a href="http://mrmaksimize.com{{ page.url }}#disqus_thread">Comments</a></h2>-->
+      {% include JB/comments %}
+    </aside>
+    {% endif %}
 
-<div class="col-lg-4">
+  </div>
+  {% if page.sidebar %}
+  <aside class="col-lg-4 blog-aside">
   {% include themes/jt_bootstrap/sidebar.html %}
-</div>
+  </aside>
+  {% endif %}

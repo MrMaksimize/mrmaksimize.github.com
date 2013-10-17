@@ -4,7 +4,7 @@
 {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 {% assign zebra = forloop.index | modulo:2 %}
-{% if forloop.first or zebra > 0 %}<div class="row">{% endif %}<div class="col-md-6 col-sm-6"><article class="blog-teaser"><header>
+{% if forloop.first %}<div class="row">{% endif %}<div class="col-md-6 col-sm-6"><article class="blog-teaser"><header>
 {% if post.thumb %}
 <a href="{{ BASE_PATH }}{{ post.url }}"><img src="{{ post.thumb }}" class="posts-collate-img"></a>
 {% elsif post.image %}
@@ -19,5 +19,5 @@
 </div>
 <div class="clearfix">
 {% if post.content contains '<!--break-->' %}<a class="btn btn-primary" href="{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>{% endif %}
-</div></article></div>{% if forloop.last or zebra == 0 %}</div>{% endif %}{% endfor %}
+</div></article></div>{% if forloop.last %}</div>{% endif %}{% endfor %}
 {% assign posts_collate = nil %}

@@ -1,5 +1,5 @@
 body {
-	margin-top: 100px; /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
+	margin-top: 63px; /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
 }
 
 footer {
@@ -8,4 +8,12 @@ footer {
 
 .twitter-timeline {
 	background-color:transparent !important;
+}
+
+.front-main {
+  margin-top:50px;
+}
+
+.top-bar {
+	background-color: #2980b9 !important;
 }

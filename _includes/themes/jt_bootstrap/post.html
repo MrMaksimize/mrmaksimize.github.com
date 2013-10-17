@@ -1,31 +1,59 @@
 <div class="col-lg-8 blog-main">
-  <h1>
-    {{ page.title }}
-  </h1>
-  <p class="lead">by <a href="/">{{ site.author.name }}</a></p>
+  <article class="blog-post">
+    <header>
+        <h1>{{ page.title }}</h1>
+        {% if page.image %}
+        <div class="lead-image">
+            <img src="{{ page.image }}" alt="Hands" class="img-responsive post-image">
+            <div class="meta clearfix">
+                <div class="author">
+                    <i class="icon-user"></i>
+                    <span class="data">{{ site.author.name }}</span>
+                </div>
+                <div class="date">
+                    <i class="icon-calendar"></i>
+                    <span class="data">{{ page.date | date_to_long_string }}</span>
+                </div>
+                <!--<div class="comments">
+                    <i class="icon-comments"></i>
+                    <span class="data"><a href="#comments">26 Comments</a></span>
+                </div> -->                               
+            </div>
+        </div>
+        {% endif %}
+    </header>
+    <div class="body">
 
-  <hr class="clearfix col-lg-12 col-md-12 col-sm-12">
-  
-  <p><span class="glyphicon glyphicon-time"></span> {{ page.date | date_to_long_string }}</p>
-  
-  <hr class="clearfix col-lg-12 col-md-12 col-sm-12">
-  
-  {% if page.image %}
-       <img src="{{ page.image }}" class="img-responsive posts-collate-img col-lg-4 col-md-4 col-sm-12">
-       <hr class="clearfix col-lg-12 col-md-12 col-sm-12">
-  {% endif %}
+        {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
+        
+        {{ content }}
 
-  {% if page.lead %}
-      <p class="lead">{{ page.lead }}</p>
-  {% endif %}
+    </div>
+    </article>
 
-  {{ content }}
-  <div class="well">
-    {% include JB/comments %}
+    <aside class="social-icons clearfix">
+    <a href="#" class="social-icon color-one">
+            <div class="inner-circle" ></div>
+            <i class="icon-twitter"></i>
+    </a>
+
+    <a href="#" class="social-icon color-two">
+            <div class="inner-circle" ></div>
+            <i class="icon-google-plus"></i>
+    </a>    
+
+    <a href="#" class="social-icon color-three">
+            <div class="inner-circle" ></div>
+            <i class="icon-facebook"></i>
+    </a>
+    </aside>
+
+    <aside class="comments" id="comments">
+      <!--<h2><i class="icon-comments"></i> <a href="http://mrmaksimize.com{{ page.url }}#disqus_thread">Comments</a></h2>-->
+      {% include JB/comments %}
+    </aside>
+
   </div>
-
-</div>
-
-<div class="col-lg-4">
+  <aside class="col-lg-4 blog-aside">
   {% include themes/jt_bootstrap/sidebar.html %}
-</div>
+</aside>
