@@ -7,7 +7,7 @@ image: /assets/images/user_profile.png
 
 <div class="container about">
 	<h1>Hello There, I’m <span class="about-bold">Maksim Pecherskiy!</span></h1>
-	<span class="about-large">I’m a <span class="about-italic">web and mobile developer</span> and <span class="about-italic">architect</span>. <br> <img src=" {{ page.image }}" alt="Maksim Pecherskiy" class="about-portrait img-responsive posts-collate-img"></span>
+	<span class="about-large">I’m a <span class="about-italic">web and mobile developer</span> and <span class="about-italic">architect</span>. <br> <img src=" {{ page.image }}" alt="Maksim Pecherskiy" class="about-portrait img-responsive whoami-img"></span>
 	<span class="about-medium">I hold a B.S. in Information Systems from DePaul University and a B.S. in International Business from Linkoping University. I have over 5 years of experience in the dev business. </span> 
 <span class = "about-small">I'm an avid traveler and enjoy learning and interacting with new cultures, meeting new people, and arguing viewpoints that differ from mine. I adapt quickly to new cultures and always seek to push my comfort limits. I speak Russian, English, a decent amount of Spanish and just a little bit of French (I really mean very little).
 
@@ -16,15 +16,15 @@ I also love animals. And so does my wonderful girlfriend Amy, who I have the ple
 We have one one cool cat (Clifton), one fat cat (Kuma - aptly named after a burger joint), one crazy dog (Willow) and one chill dog (Sadie).
 		I use this Blog to share my experiences and my knowledge with the world.</span>
 
-	<div class="about-button">
+	<!--<div class="about-button">
 	    <a class="btn btn-xlarge btn-tales-one" href="#contact">Drop Me A Line</a>
-	</div>
+	</div>-->
     <hr>
 </div>
 <div class="container">
     <div class="row">
         <div class="col-md-6 col-md-offset-3 tales-superblock">
-            <h2>Social</h2>
+            <h2>Hit Me Up!</h2>
             <div class="social-icons clearfix">
                 <a href="http://www.twitter.com/{{ site.author.twitter }}" target="_blank" class="social-icon color-one">
                         <div class="inner-circle" ></div>
@@ -44,7 +44,7 @@ We have one one cool cat (Clifton), one fat cat (Kuma - aptly named after a burg
             <hr>
         </div>
     </div>
-    <div class="row">
+    <!--<div class="row">
         <div class="col-md-6 col-md-offset-3 tales-superblock" id="contact">
             <h2>Contact</h2>
             
@@ -57,7 +57,7 @@ We have one one cool cat (Clifton), one fat cat (Kuma - aptly named after a burg
                 </div>                    
             </form>
         </div>
-    </div>        
+    </div>-->        
 </div>
 
 

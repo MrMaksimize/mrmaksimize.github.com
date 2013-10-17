@@ -4,20 +4,31 @@
 {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 {% assign zebra = forloop.index | modulo:2 %}
-{% if forloop.first %}<div class="row">{% endif %}<div class="col-md-6 col-sm-6"><article class="blog-teaser"><header>
+{% if forloop.first %}<div class="row">{% endif %}<div class="col-md-12 col-sm-12 zebra-{{ zebra }}"><article class="blog-teaser"><header>
 {% if post.thumb %}
 <a href="{{ BASE_PATH }}{{ post.url }}"><img src="{{ post.thumb }}" class="posts-collate-img"></a>
 {% elsif post.image %}
 <a href="{{ BASE_PATH }}{{ post.url }}"><img src="{{ post.image }}" class="posts-collate-img img-circle" /></a>
 {% endif %}
 <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
-<span class="meta glyphicon glyphicon-time"> {{ post.date | date_to_long_string }} </span>
+<div class="row">{{ post.date | date_to_long_string }}</div>
+<div class="row">{{ site.author.name }}</div>
+
 <hr>
 </header>
 <div class="body">
-{{ post.content | split:'<!--break-->' | first }}
+{% if post.content contains '<!--break-->' %}
+  {{ post.content | split:'<!--break-->' | first }}
+{% elsif post.content contains '<!--leadstart-->' %}
+  {% capture lead %}{{ post.content | split:'<!--leadstart-->' | last }}{% endcapture %}
+  {{ lead | split:'<!--leadend-->' | first }}
+{% else %}
+  {{ post.content | truncatewords: 100 }}
+{% endif %}
+
+
 </div>
 <div class="clearfix">
-{% if post.content contains '<!--break-->' %}<a class="btn btn-primary" href="{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>{% endif %}
+<a class="btn btn-primary" href="{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 </div></article></div>{% if forloop.last %}</div>{% endif %}{% endfor %}
 {% assign posts_collate = nil %}
