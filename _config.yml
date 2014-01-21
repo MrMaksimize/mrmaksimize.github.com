@@ -1,35 +1,35 @@
-title:            Site Title
-description:      Describe your website here.
-disqus_shortname: 
+title:            M
+description:      ST9
+disqus_shortname: mrmaksimize
 #Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://localhost:4000
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         avatar.jpg
+  name:           Maksim Pecherskiy
+  avatar:         avatar.png
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  email:          max@maksimize.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
-  stackexchange:  
-  linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
+  twitter: MrMaksimize
+  facebook:
+  github: MrMaksimize
+  stackexchange:
+  linkedin: maxpecehrskiy
+  instagram:
+  flickr:
+  tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:   
+  google_plus:
 
 # Background image to be tiled on all pages
 background: ps_neutral.png
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics: 'UA-31205267-1'
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
