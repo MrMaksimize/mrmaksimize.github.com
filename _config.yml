@@ -2,7 +2,7 @@ title:            MrMaksimize
 description:      Maksim's Personal Blog
 disqus_shortname: mrmaksimize
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url:              http://mrmaksimize.com
 
 # Owner/author information
 owner:
