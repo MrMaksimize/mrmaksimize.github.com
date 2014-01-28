@@ -48,33 +48,38 @@ Menu Import also has a nice little piece of functionality where you can export y
 I then saved the file inside of the feature where I wanted my menu structure to be.
 
 And subsequently, I added the following to the feature's .module file:
-
-    function my_menu_feature_pre_features_revert($component) {
-      // I actually had two menus, that's why the foreach loop.
-      $menu_export_files = array(
-        'main-menu' => 'main-menu-export.txt',
-      );
-      $results = array();
-      if ($component == 'menu_custom') {
-        if (!function_exists('menu_import_file')) {
-          module_enable(array('menu_import'));
-        }
-        $path = drupal_get_path('module', 'my_menu_feature');
-        foreach ($menu_export_files as $menu_name => $menu_export_file) {
-          $result = menu_import_file($path . '/' . $menu_export_file, $menu_name, array(
-            'link_to_content' => TRUE,
-            'create_content' => FALSE,
-            'remove_menu_items' => TRUE,
-          ));
-          $results[$menu_name] = $result;
-        }
-        drush_print_r($results);
-      }
+ {% highlight php %}
+<?php
+function my_menu_feature_pre_features_revert($component) {
+  // I actually had two menus, that's why the foreach loop.
+  $menu_export_files = array(
+    'main-menu' => 'main-menu-export.txt',
+  );
+  $results = array();
+  if ($component == 'menu_custom') {
+    if (!function_exists('menu_import_file')) {
+      module_enable(array('menu_import'));
     }
+    $path = drupal_get_path('module', 'my_menu_feature');
+    foreach ($menu_export_files as $menu_name => $menu_export_file) {
+      $result = menu_import_file($path . '/' . $menu_export_file, $menu_name, array(
+        'link_to_content' => TRUE,
+        'create_content' => FALSE,
+        'remove_menu_items' => TRUE,
+      ));
+      $results[$menu_name] = $result;
+    }
+    drush_print_r($results);
+  }
+}
 
+{% endhighlight %}
 And the following to the .info file:
+{% highlight php %}
 
     features[menu_custom][] = main-menu
+
+{% endhighlight %}
 
 That's it! Now, when I run `drush fr -y --force commons_main_menu`, it will force revert the feature and run the menu-import to update my menu items, deleting any previous problems before doing so.
 

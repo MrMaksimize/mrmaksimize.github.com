@@ -1,118 +1,42 @@
-# HPSTR Jekyll Theme
+# Jekyll-Bootstrap
 
-They say three times the charm, so here is another free responsive Jekyll theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory...
+The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
 
-## What HPSTR brings to the table:
+## Usage
 
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Comments powered by [Disqus](http://disqus.com) if you choose to enable.
-* Social Sharing links for Facebook, Twitter, and Google+ if you choose to enable.
-* Simple and clear permalink structure.
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page](http://mmistakes.github.io/hpstr-jekyll-theme/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/hpstr-jekyll-theme/code-highlighting-post/) to make your code examples look snazzy
-* [Grunt](http://gruntjs.com) build script for easy theme development
+For all usage and documentation please see: <http://jekyllbootstrap.com>
 
-[Theme Preview](http://mmistakes.github.io/hpstr-jekyll-theme)
+## Version
 
-![HPSTR Theme Preview screenshot](http://mmistakes.github.io/hpstr-jekyll-theme/images/hpstr-jekyll-theme-preview.jpg)
+0.2.13 - stable and versioned using [semantic versioning](http://semver.org/).
 
----
+## Contributing 
 
-General notes and suggestions for customizing **HPSTR**.
+This repository tracks 2 projects:
 
-## Basic Setup for a new Jekyll site
+- **Jekyll-Bootstrap Framework.**  
+  The framework for which users should clone and build their blog on top of is available in the master branch.
+  
+  To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
+  This is very important as it allows me to accept your pull request without having to publish a public version release.
+  
+  Small, atomic Features, bugs, etc.   
+  Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.   
+  Please rebase as often as possible when working.   
+  Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
+  
+  For Big Features or major API extensions/edits:   
+  This is the one case where I'll accept pull-requests based off the master branch.
+  This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
+  Translation : it might take a bit longer so please be patient! (but sincerely thank you).
+ 
+- **Jekyll-Bootstrap Documentation Website.**    
+  The documentation website at <http://jekyllbootstrap.com> is maintained in the gh-pages branch.
+  Please fork and contribute documentation additions to this branch only.
 
-1. [Install Jekyll](http://jekyllrb.com) and read through the documentation if you haven't already.
-2. Fork the [HPSTR Jekyll THeme repo](https://github.com/mmistakes/hpstr-jekyll-theme/fork)
-3. Clone the repo you just forked to your computer.
-4. Edit `_config.yml` to personalize your site.
-5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, tags, and other YAML data.
-6. Read the documentation below for additional customization pointers and documentation.
+The master and gh-pages branch do not share the same ancestry. Please treat them as completely separate git repositories!
 
-[Download the Theme](https://github.com/mmistakes/hpstr-jekyll-theme)
-
-**Pro-tip:** Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo that I'm guessing you don't want on your site.
-
----
-
-## Setup for an Existing Jekyll site
-
-1. Clone the following folders: `_includes`, `_layouts`, `assets`, and `images`.
-2. Clone the following files and personalize content as need: `about.md`, `archive.html`, `index.html`, `tags.html`, and `feed.xml`.
-3. Set the following variables in your `config.yml` file:
-
-``` yaml
-title:            Site Title
-description:      Describe your website here.
-disqus_shortname: shortname
-# Your site's domain goes here. When working locally use localhost server leave blank
-# PS. If you set this wrong stylesheets and scripts won't load and most links will break.
-# PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
-url:              http://localhost:4000
-
-# Owner/author information
-owner:
-  name:           Your Name
-  avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
-  stackexchange:  
-  linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
-
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: Theme Setup
-    url: /theme-setup
-  - title: External Link
-    url: http://mademistakes.com
-    external: true
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
-pygments:    true
-markdown:    kramdown
-
-# Amount of posts to show on home page
-paginate: 5
-```
-
----
-
-## More Theme Setup Goodness
-
-To learn more about how to customize the theme, include feature images in posts, use the Grunt build script, and some other junk, [read up here](http://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/).
-
----
-
-## Questions?
-
-Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](http://twitter.com/mmistakes) or [file a GitHub Issue](https://github.com/mmistakes/hpstr-jekyll-theme/issues/new). And if you make something cool with this theme feel free to let me know.
-
----
 
 ## License
 
-This theme is free and open source software, distributed under the [GNU General Public License](https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/LICENSE) version 2 or later. So feel free to to modify this theme to suit your needs. 
+[Creative Commons](http://creativecommons.org/licenses/by-nc-sa/3.0/)
