@@ -5,7 +5,6 @@ description: ""
 category:
 image: ""
 ---
-{% include JB/setup %}
 This may be the most obvious thing in the world to most people, but I ran into this issue so I figured I should share it, for any chumps out there.  Here's the deal.
 
 I was using the awesome [FPPopoverController](https://github.com/50pixels/FPPopover) by 50Pixels, and I had this issue.  When I would first allocate and initalize the popover controller, it would work fine and show up with its content view, but when I clicked outside of it in an attempt to dismiss it, my app would crash.

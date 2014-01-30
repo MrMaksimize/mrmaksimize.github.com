@@ -5,7 +5,6 @@ description: ""
 category:
 image: ""
 ---
-{% include JB/setup %}
 
 
 As I was just working on an iOS app, I had a truly random thought about one of the things that makes one a good developer.  This is not a skill I have yet mastered, but it's definitely one I'm working on.
