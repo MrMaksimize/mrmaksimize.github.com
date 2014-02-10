@@ -1,13 +1,21 @@
 ---
 layout: post
 title: Continuous Deployment of Ghost from Github
-description: "Setting up automatic from GitHub for Ghost running on DigitalOcean"
+description: Setting up automatic from GitHub for Ghost running on DigitalOcean
 category: deployment
-tags: [deployment, github, code, ghost, digitalocean, server, hosting]
+tags: 
+  - deployment
+  - github
+  - code
+  - ghost
+  - digitalocean
+  - server
+  - hosting
 comments: true
 share: true
-image:
-  feature: abstract-7.jpg
+image: 
+  feature: "abstract-7.jpg"
+published: true
 ---
 
 As part of my fellowship at [Code For America](http://codeforamerica.org), my team had to set up a blog in order to keep everyone updated about what we're doing and how everything is going.  Most teams just set up a tumblr blog.  However I had some ethical qualms about doing that and successfully was able to convince my team to agree to running [Ghost](http://tryghost.org).
@@ -47,7 +55,7 @@ end script
 
 This will let you run the ghost process as a service.
 
-### Write the forever script
+### Write the listener script
 Pick a port where you know nothing is running.  If you look at Ghost's config.js file, you will see what port the ghost service is started.  You can always run `netstat --listen` and see if the port number you chose is being used by a service.
 
 Create a file and add it to the code base at the root of ghost;  I called it `deploy_listener.js`, but really the name doesn't matter.  I'm considering renaming it to something that has to do with monkeys, because I like monkeys.  The contents of the file are pretty simple:
@@ -114,5 +122,3 @@ You know how I said this is quick and dirty.  I meant it.  If you have suggestio
 * I don't think I need to use forever since I can just run the hookshot listener as a service.
 * It may make sense to just inject hookshot directly into ghost to avoid opening up yet another port.
 * Hardening the whole thing
-
-
