@@ -25,9 +25,7 @@ owner:
 # Background image to be tiled on all pages
 background: ps_neutral.png
 default_feature:
-  feature: 'abstract-12.jpg'
-  credit: dargadgetz
-  creditlink: 'http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/'
+  feature: 'skyline-1.jpg'
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: 'UA-31205267-1'

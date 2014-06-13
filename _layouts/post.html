@@ -20,7 +20,7 @@
 
 {% if feature_image %}
 <div class="entry-header">
-  <div class="entry-image"><img src="{{ site.url }}/images/{{ feature_image.feature }}" alt="{{ page.title }}">
+  <div class="entry-image"><img src="/images/{{ feature_image.feature }}" alt="{{ page.title }}">
     {% if feature_image.credit %}<div class="image-credit">Image source: <a href="{{ feature_image.creditlink }}">{{ feature_image.credit }}</a></div><!-- /.image-credit -->{% endif %}
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->

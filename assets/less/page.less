@@ -116,6 +116,12 @@ body {
 	}
 	img {
 		width: 100%;
+    filter: blur(5px);
+    // Browser Specific
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
 	}
 }
 .image-credit {
@@ -276,7 +282,7 @@ body {
 	h3 {
 		margin: 0;
 		.font-rem(28);
-		a { 
+		a {
 			color: @primary;
 		}
 		@media @medium {
@@ -290,11 +296,11 @@ body {
 .list-item {
 	width: 100%;
 	text-align: left;
-	h4 { 
+	h4 {
 		.font-rem(18);
-		margin-bottom: 0; 
+		margin-bottom: 0;
 	}
-	span { 
+	span {
 		display: block;
 		.font-rem(14);
 		color: lighten(@base-color,50);
@@ -308,7 +314,7 @@ body {
 	}
 }
 
-// Post Index 
+// Post Index
 // --------------------------------------------------
 #post-index {
 	#main {
@@ -357,7 +363,7 @@ body {
 .socialcount {
 	.font-rem(16);
 	font-weight: 700;
-	li { 
+	li {
 		padding-left: 10px;
 		padding-right: 10px;
 	}

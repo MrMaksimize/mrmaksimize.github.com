@@ -3,7 +3,7 @@ layout: post
 title: Continuous Deployment of Ghost from Github
 description: Setting up automatic from GitHub for Ghost running on DigitalOcean
 category: deployment
-tags: 
+tags:
   - deployment
   - github
   - code
@@ -13,8 +13,6 @@ tags:
   - hosting
 comments: true
 share: true
-image: 
-  feature: "abstract-7.jpg"
 published: true
 ---
 
