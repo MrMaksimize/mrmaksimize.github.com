@@ -14,4 +14,4 @@ I also love animals. And so does my wonderful wife Amy.
 
 We have one one cool cat (Clifton), one fat cat (Kuma - aptly named after a burger joint), one crazy dog (Willow) and one chill dog (Sadie).
 
-I use this blog to share my experiences and my knowledge with the world.</span>
+I use this blog to share my experiences and my knowledge with the world.
