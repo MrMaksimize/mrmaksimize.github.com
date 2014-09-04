@@ -4765,13 +4765,15 @@ body {
   top: 0;
   display: table;
   width: 100%;
-  height: 400px;
+  height: 100%;
+  max-height: 440px;
   margin-top: 0;
   overflow: hidden;
 }
 
 .feature .header-title .header-title-wrap {
   display: table-cell;
+  padding-top: 16%;
   margin: 0 auto;
   text-align: center;
   vertical-align: middle;
