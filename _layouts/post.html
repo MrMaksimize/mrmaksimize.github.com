@@ -24,13 +24,8 @@
   <div class="entry-image">
     <img src="{{ site.url }}/images/{{ feature_image }}" alt="{{ page.title }}">
   </div><!-- /.entry-image -->
-</div><!-- /.entry-header -->
-{% endif %}
-
-<div id="main" role="main">
-  <article class="hentry">
-    <header class="header-title">
-      <div class="header-title-wrap">
+   <header class="header-title">
+     <div class="header-title-wrap">
         {% if page.link %}
           <h1 class="entry-title"><a href="{{ page.link }}">{{ page.title }}</a></h1>
         {% else %}
@@ -44,8 +39,14 @@
           Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
         </p><!-- /.entry-reading-time -->
         {% endif %}
-      </div><!-- /.header-title-wrap -->
+    </div><!-- /.header-title-wrap -->
     </header>
+</div><!-- /.entry-header -->
+{% endif %}
+
+<div id="main" role="main">
+  <article class="hentry">
+
     <div class="entry-content">
       {{ content }}
       <footer class="entry-meta">
