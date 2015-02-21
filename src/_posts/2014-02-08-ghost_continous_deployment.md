@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Continuous Deployment of Ghost from Github
-categories: code
+category deployment
 ---
 
 As part of my fellowship at [Code For America](http://codeforamerica.org), my team had to set up a blog in order to keep everyone updated about what we're doing and how everything is going.  Most teams just set up a tumblr blog.  However I had some ethical qualms about doing that and successfully was able to convince my team to agree to running [Ghost](http://tryghost.org).

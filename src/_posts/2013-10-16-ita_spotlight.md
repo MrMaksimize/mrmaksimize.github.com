@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ITA Spotlight -- ME!"
-category: shameless
+category: general
 ---
 
 

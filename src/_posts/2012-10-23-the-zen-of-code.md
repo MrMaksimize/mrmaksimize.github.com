@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Zen Of Code"
-categories: meta thoughts
+category: code
 ---
 
 

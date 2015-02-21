@@ -1,4 +1,4 @@
-/* 
+/*
 The main SCSS file for everything, yep
 */
 /*
@@ -923,3 +923,9 @@ a.pagination-item:hover {
   background-color: #8f5536; }
 .theme-base-0f .container a, .theme-base-0f .sidebar-toggle, .theme-base-0f .related-posts li a:hover {
   color: #8f5536; }
+
+.sidebar-nav-item.social-links {
+  text-align: center; }
+  .sidebar-nav-item.social-links a {
+    padding-left: 3px;
+    padding-right: 3px; }

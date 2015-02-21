@@ -2,7 +2,7 @@
 # Can be used in your theme by calling 'site.title' and so on
 title: MrMaksimize
 description: Gov, Code, Thoughts are my own and represent no one.
-tagline: Government.Code.Thoughts
+tagline: Gov Code Thoughts are my own and represent no one.
 url: localhost:4000
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
@@ -17,6 +17,7 @@ author:
   bio: Chief Data Officer, City of San Diego
   twitter: mrmaksimize
   github: mrmaksimize
+  linkedin: maxpecherskiy
 
 # general setting for Jekyll
 googleAnalytics: 'UA-31205267-1'

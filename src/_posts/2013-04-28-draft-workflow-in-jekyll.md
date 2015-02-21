@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Draft Publishing In Jekyll"
-categories: jekyll web code
+category: web
 ---
 
 

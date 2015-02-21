@@ -25,12 +25,14 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" href="">Hi</a>
+    <!--<a class="sidebar-nav-item" href=""></a>-->
     <span class="sidebar-nav-item">Run by <a href="https://twitter.com/{{ site.author.twitter}}">@{{ site.author.name }}</a></span>
-    <span class="sidebar-nav-item">
-      <a href="https://github.com/{{ site.author.github}}" target="_blank"><i class="fa fa-3x fa-github"></i></a>
-      <a href="https://twitter.com/{{ site.author.twitter}}" target="_blank"><i class="fa fa-3x fa-twitter"></i></a>
-      <a href="{{ site.url }}/atom.xml" target="_blank"><i class="fa fa-3x fa-rss"></i></a>
+    <span class="sidebar-nav-item social-links">
+      <a href="https://github.com/{{ site.author.github}}" target="_blank" title="Github"><i class="fa fa-2x fa-github"></i></a>
+      <a href="https://twitter.com/{{ site.author.twitter}}" target="_blank" title="Twitter"><i class="fa fa-2x fa-twitter"></i></a>
+      <a href="https://linkedin.com/in/{{ site.author.linkedin}}" target="_blank" title="LinkedIN"><i class="fa fa-2x fa-linkedin"></i></a>
+      <a href="mailto:{{ site.author.email }}"><i class="fa fa-2x fa-envelope-o" title="E-Mail"></i></a>
+      <a href="/atom.xml" title="RSS" target="_blank"><i class="fa fa-2x fa-rss"></i></a>
     </span>
   </nav>
 

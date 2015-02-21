@@ -1,7 +1,15 @@
-/* 
+/*
 The main SCSS file for everything, yep
 */
 
 @import "poole";
 @import "syntax";
 @import "lanyon";
+
+.sidebar-nav-item.social-links {
+  text-align:center;
+  a {
+    padding-left:3px;
+    padding-right:3px;
+  }
+}
