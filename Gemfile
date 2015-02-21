@@ -1,9 +1,6 @@
-source 'https://rubygems.org'
+source "http://rubygems.org"
 
 gem 'jekyll'
-gem 'kramdown'
-gem 'coderay'
-gem 'rake'
-gem 'thor'
-gem 'activesupport'
-gem 'stringex'
+gem 'redcarpet'
+gem 'classifier-reborn'
+gem 'fast-stemmer'
