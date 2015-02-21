@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>mrmaksimize.github.io/</loc>
-    <lastmod>2015-02-20T19:46:17-08:00</lastmod>
+    <loc>mrmaksimize.com/</loc>
+    <lastmod>2015-02-20T20:47:57-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
     <url>
-      <loc>mrmaksimize.github.io/data/pdf_extraction_tabula/</loc>
+      <loc>mrmaksimize.com/data/pdf_extraction_tabula/</loc>
       
         <lastmod>2014-10-10T00:00:00-07:00</lastmod>
       
@@ -21,7 +21,7 @@
     </url>
   
     <url>
-      <loc>mrmaksimize.github.io/code%20integrations/webhooks/</loc>
+      <loc>mrmaksimize.com/integration/webhooks/</loc>
       
         <lastmod>2014-09-03T00:00:00-07:00</lastmod>
       
@@ -34,7 +34,7 @@
     </url>
   
     <url>
-      <loc>mrmaksimize.github.io/code/ghost_continous_deployment/</loc>
+      <loc>mrmaksimize.com/deployment/ghost_continous_deployment/</loc>
       
         <lastmod>2014-02-08T00:00:00-08:00</lastmod>
       
@@ -47,7 +47,7 @@
     </url>
   
     <url>
-      <loc>mrmaksimize.github.io/cfa%20government/why_im_coding_for_america/</loc>
+      <loc>mrmaksimize.com/government/why_im_coding_for_america/</loc>
       
         <lastmod>2014-01-10T00:00:00-08:00</lastmod>
       
@@ -60,7 +60,7 @@
     </url>
   
     <url>
-      <loc>mrmaksimize.github.io/shameless/ita_spotlight/</loc>
+      <loc>mrmaksimize.com/general/ita_spotlight/</loc>
       
         <lastmod>2013-10-16T00:00:00-07:00</lastmod>
       
@@ -73,7 +73,7 @@
     </url>
   
     <url>
-      <loc>mrmaksimize.github.io/rails%20code/rails_4_strong_parameters/</loc>
+      <loc>mrmaksimize.com/rails/rails_4_strong_parameters/</loc>
       
         <lastmod>2013-07-14T00:00:00-07:00</lastmod>
       
@@ -86,7 +86,7 @@
     </url>
   
     <url>
-      <loc>mrmaksimize.github.io/drupal/code/firm_grip_menus_drupal/</loc>
+      <loc>mrmaksimize.com/drupal/firm_grip_menus_drupal/</loc>
       
         <lastmod>2013-06-05T00:00:00-07:00</lastmod>
       
@@ -99,7 +99,7 @@
     </url>
   
     <url>
-      <loc>mrmaksimize.github.io/jekyll/web/code/draft-workflow-in-jekyll/</loc>
+      <loc>mrmaksimize.com/web/draft-workflow-in-jekyll/</loc>
       
         <lastmod>2013-04-28T00:00:00-07:00</lastmod>
       
@@ -112,7 +112,7 @@
     </url>
   
     <url>
-      <loc>mrmaksimize.github.io/code/Custom-UITableViewCell-With-NIB/</loc>
+      <loc>mrmaksimize.com/ios/Custom-UITableViewCell-With-NIB/</loc>
       
         <lastmod>2012-11-13T00:00:00-08:00</lastmod>
       
@@ -125,7 +125,7 @@
     </url>
   
     <url>
-      <loc>mrmaksimize.github.io/meta/thoughts/the-zen-of-code/</loc>
+      <loc>mrmaksimize.com/code/the-zen-of-code/</loc>
       
         <lastmod>2012-10-23T00:00:00-07:00</lastmod>
       
@@ -138,7 +138,7 @@
     </url>
   
     <url>
-      <loc>mrmaksimize.github.io/general/meta/the-blog/</loc>
+      <loc>mrmaksimize.com/general/the-blog/</loc>
       
         <lastmod>2012-09-23T00:00:00-07:00</lastmod>
       
@@ -152,22 +152,9 @@
   
   
   <url>
-    <loc>mrmaksimize.github.io/404.html</loc>
+    <loc>mrmaksimize.com/404.html</loc>
     
-      <lastmod>2015-02-20T19:46:17-08:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>mrmaksimize.github.io/about.html</loc>
-    
-      <lastmod>2015-02-20T19:46:17-08:00</lastmod>
+      <lastmod>2015-02-20T20:47:57-08:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -178,22 +165,9 @@
   </url>
   
   <url>
-    <loc>mrmaksimize.github.io/atom.xml</loc>
+    <loc>mrmaksimize.com/about.html</loc>
     
-      <lastmod>2015-02-20T19:46:17-08:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>mrmaksimize.github.io/index.html</loc>
-    
-      <lastmod>2015-02-20T19:46:17-08:00</lastmod>
+      <lastmod>2015-02-20T20:47:57-08:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -204,22 +178,9 @@
   </url>
   
   <url>
-    <loc>mrmaksimize.github.io/sitemap.xml</loc>
+    <loc>mrmaksimize.com/atom.xml</loc>
     
-      <lastmod>2015-02-20T19:46:17-08:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>mrmaksimize.github.io/page2/index.html</loc>
-    
-      <lastmod>2015-02-20T19:46:17-08:00</lastmod>
+      <lastmod>2015-02-20T20:47:57-08:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -230,9 +191,48 @@
   </url>
   
   <url>
-    <loc>mrmaksimize.github.io/page3/index.html</loc>
+    <loc>mrmaksimize.com/index.html</loc>
     
-      <lastmod>2015-02-20T19:46:17-08:00</lastmod>
+      <lastmod>2015-02-20T20:47:57-08:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>mrmaksimize.com/sitemap.xml</loc>
+    
+      <lastmod>2015-02-20T20:47:57-08:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>mrmaksimize.com/page2/index.html</loc>
+    
+      <lastmod>2015-02-20T20:47:57-08:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>mrmaksimize.com/page3/index.html</loc>
+    
+      <lastmod>2015-02-20T20:47:57-08:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
