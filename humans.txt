@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Maksim Pecherskiy -- <role> -- @https://twitter.com/mrmaksimize
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, JavaScript
+    Jekyll, Lanyon/Poole, HTML5 Boilerplate
+    Yeoman, Jekyllized
