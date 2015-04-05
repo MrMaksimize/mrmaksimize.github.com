@@ -11,6 +11,8 @@ title: About
 
 I'm a software developer who is passionate about government and technology.
 
+I'm also the Chief Data Officer for the City of San Diego.  I love what I do, and I hope to be better at writing about it.
+
 I hold a B.S. in Information Systems from DePaul University and a B.S. in International Business from Linkoping University.
 
 I'm an avid traveler and enjoy learning and interacting with new cultures, meeting new people, and arguing viewpoints that differ from mine. I adapt quickly to new cultures and always seek to push my comfort limits. I speak Russian, English, a decent amount of Spanish and just a little bit of French (I really mean very little).
