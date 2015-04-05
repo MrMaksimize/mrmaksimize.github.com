@@ -4,7 +4,7 @@
  <title>MrMaksimize</title>
  <link href="mrmaksimize.com/atom.xml" rel="self"/>
  <link href="mrmaksimize.com/"/>
- <updated>2015-02-20T21:28:01-08:00</updated>
+ <updated>2015-04-05T16:48:46-07:00</updated>
  <id>mrmaksimize.com</id>
  <author>
    <name>Maksim Pecherskiy</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Quick and Dirty PDF Table Extraction</title>
-   <link href="mrmaksimize.com/data/pdf_extraction_tabula/"/>
+   <link href="mrmaksimize.com/pdf_extraction_tabula/"/>
    <updated>2014-10-10T00:00:00-07:00</updated>
-   <id>mrmaksimize.com/data/pdf_extraction_tabula</id>
+   <id>mrmaksimize.com/pdf_extraction_tabula</id>
    <content type="html">&lt;p&gt;Recently, I had to do a quick, dirty and un-automated extraction of some table data from PDF.  I need to take a single table out of a financial statement and extract it to CSV.&lt;/p&gt;
 
 &lt;p&gt;While you can find plenty of tutorials on how to automate this process, I didn&amp;rsquo;t really find a whole lot on doing it just once for a specific PDF.  So I wrote a quick tutorial.&lt;/p&gt;
@@ -31,9 +31,9 @@
  
  <entry>
    <title>Webhooks: A Different Pattern</title>
-   <link href="mrmaksimize.com/integration/webhooks/"/>
+   <link href="mrmaksimize.com/webhooks/"/>
    <updated>2014-09-03T00:00:00-07:00</updated>
-   <id>mrmaksimize.com/integration/webhooks</id>
+   <id>mrmaksimize.com/webhooks</id>
    <content type="html">&lt;h3&gt;Integration&lt;/h3&gt;
 
 &lt;p&gt;is one of the many problems of software development for governments. Many different departments may have different systems and even different use cases for interacting with your application. It is often not feasible to try to integrate with every different system.&lt;/p&gt;
@@ -132,9 +132,9 @@
  
  <entry>
    <title>Continuous Deployment of Ghost from Github</title>
-   <link href="mrmaksimize.com/deployment/ghost_continous_deployment/"/>
+   <link href="mrmaksimize.com/ghost_continous_deployment/"/>
    <updated>2014-02-08T00:00:00-08:00</updated>
-   <id>mrmaksimize.com/deployment/ghost_continous_deployment</id>
+   <id>mrmaksimize.com/ghost_continous_deployment</id>
    <content type="html">&lt;p&gt;As part of my fellowship at &lt;a href=&quot;http://codeforamerica.org&quot;&gt;Code For America&lt;/a&gt;, my team had to set up a blog in order to keep everyone updated about what we&amp;rsquo;re doing and how everything is going.  Most teams just set up a tumblr blog.  However I had some ethical qualms about doing that and successfully was able to convince my team to agree to running &lt;a href=&quot;http://tryghost.org&quot;&gt;Ghost&lt;/a&gt;.&lt;/p&gt;
 
 &lt;!--break--&gt;
@@ -243,9 +243,9 @@ forever start /path/to/your/ghost/deploy_listener.js&lt;/code&gt;&lt;/pre&gt;&lt
  
  <entry>
    <title>Why I'm Coding For America</title>
-   <link href="mrmaksimize.com/government/why_im_coding_for_america/"/>
+   <link href="mrmaksimize.com/why_im_coding_for_america/"/>
    <updated>2014-01-10T00:00:00-08:00</updated>
-   <id>mrmaksimize.com/government/why_im_coding_for_america</id>
+   <id>mrmaksimize.com/why_im_coding_for_america</id>
    <content type="html">&lt;p&gt;I am not a natural born United States citizen.  I spent the first ten years of my life in a country much different than this one, with a much different culture.  After arriving in the United States, I witnessed and participated in my family’s struggle to understand and work with the complex bureaucracies wrapped around immigration, food stamps, social security and public services.  I waited with my family in seemingly endless lines, only to be told I needed to go to a different building and wait in another endless line.  I learned that the system is flawed and wondered how to fix it.&lt;/p&gt;
 
 &lt;p&gt;I have always been curious in understanding how cities develop, sustain and function, and I have been fortunate enough to explore these topics in many cities and countries across the globe.  Just like every human being, every city&amp;ndash;while maintaining similarity in the most obvious and general features&amp;ndash;is an extremely unique and complicated living organism.&lt;/p&gt;
@@ -262,9 +262,9 @@ forever start /path/to/your/ghost/deploy_listener.js&lt;/code&gt;&lt;/pre&gt;&lt
  
  <entry>
    <title>ITA Spotlight -- ME!</title>
-   <link href="mrmaksimize.com/general/ita_spotlight/"/>
+   <link href="mrmaksimize.com/ita_spotlight/"/>
    <updated>2013-10-16T00:00:00-07:00</updated>
-   <id>mrmaksimize.com/general/ita_spotlight</id>
+   <id>mrmaksimize.com/ita_spotlight</id>
    <content type="html">&lt;!--leadstart--&gt;
 
 &lt;p&gt;I guess it&amp;rsquo;s weird to be writing a blog post about myself.&lt;/p&gt;
@@ -285,9 +285,9 @@ forever start /path/to/your/ghost/deploy_listener.js&lt;/code&gt;&lt;/pre&gt;&lt
  
  <entry>
    <title>Rails 4 Strong Parameters</title>
-   <link href="mrmaksimize.com/rails/rails_4_strong_parameters/"/>
+   <link href="mrmaksimize.com/rails_4_strong_parameters/"/>
    <updated>2013-07-14T00:00:00-07:00</updated>
-   <id>mrmaksimize.com/rails/rails_4_strong_parameters</id>
+   <id>mrmaksimize.com/rails_4_strong_parameters</id>
    <content type="html">&lt;p&gt;So I&amp;rsquo;ve been going through the awesome &lt;a href=&quot;http://tutorials.jumpstartlab.com/&quot;&gt;JumpStart Labs Tutorials&lt;/a&gt; lately to learn some rails and found a small bug in the tutorial.&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s not really a bug though. The tutorial was made with Rails 3.x in mind and I&amp;rsquo;ve been using Rails 4.  So I found a small discrepancy and submitted an &lt;a href=&quot;https://github.com/JumpstartLab/curriculum/issues/606&quot;&gt;issue&lt;/a&gt;&lt;/p&gt;
@@ -329,9 +329,9 @@ forever start /path/to/your/ghost/deploy_listener.js&lt;/code&gt;&lt;/pre&gt;&lt
  
  <entry>
    <title>Firm Grip on Menus in Drupal</title>
-   <link href="mrmaksimize.com/drupal/firm_grip_menus_drupal/"/>
+   <link href="mrmaksimize.com/firm_grip_menus_drupal/"/>
    <updated>2013-06-05T00:00:00-07:00</updated>
-   <id>mrmaksimize.com/drupal/firm_grip_menus_drupal</id>
+   <id>mrmaksimize.com/firm_grip_menus_drupal</id>
    <content type="html">&lt;p&gt;For many that have worked with Drupal in teams before, I&amp;rsquo;m sure you have run into problems with managing menus.
 There are many ways to create a menu item in Drupal, one of them being from the menu editor, and others when creating content or views, or panels pages.&lt;/p&gt;
 
@@ -404,9 +404,9 @@ function my_menu_feature_pre_features_revert($component) {
  
  <entry>
    <title>Draft Publishing In Jekyll</title>
-   <link href="mrmaksimize.com/web/draft-workflow-in-jekyll/"/>
+   <link href="mrmaksimize.com/draft-workflow-in-jekyll/"/>
    <updated>2013-04-28T00:00:00-07:00</updated>
-   <id>mrmaksimize.com/web/draft-workflow-in-jekyll</id>
+   <id>mrmaksimize.com/draft-workflow-in-jekyll</id>
    <content type="html">&lt;p&gt;This is a short one.
 I found a great article about how achieve draft publishing in Jekyll.  Normally, you would generate a new post, and whether it&amp;rsquo;s done or not, jekyll will publish it.  However, with this you can create a bunch of stuff in the drafts folder, then move it to the publish directory, and the plugin will take it from the publish directory, append the proper date to it, and move it to posts.&lt;/p&gt;
 
@@ -416,9 +416,9 @@ I found a great article about how achieve draft publishing in Jekyll.  Normally,
  
  <entry>
    <title>Creating Custom UITableViewCells with NIB files</title>
-   <link href="mrmaksimize.com/ios/Custom-UITableViewCell-With-NIB/"/>
+   <link href="mrmaksimize.com/Custom-UITableViewCell-With-NIB/"/>
    <updated>2012-11-13T00:00:00-08:00</updated>
-   <id>mrmaksimize.com/ios/Custom-UITableViewCell-With-NIB</id>
+   <id>mrmaksimize.com/Custom-UITableViewCell-With-NIB</id>
    <content type="html">&lt;p&gt;Well this sucks.  Apparently these days you can only use the Interface Builder to design your cell in XCode if you&amp;rsquo;re using Storyboards.  But no worries. I have found a workaround which plays very nicely in iOS5+.  Let&amp;rsquo;s get to it!&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m assuming you already know so iOS and objective C, so I&amp;rsquo;ll save the prep for another blog post.  Let&amp;rsquo;s get down to business.&lt;/p&gt;
@@ -498,9 +498,9 @@ I found a great article about how achieve draft publishing in Jekyll.  Normally,
  
  <entry>
    <title>The Zen Of Code</title>
-   <link href="mrmaksimize.com/code/the-zen-of-code/"/>
+   <link href="mrmaksimize.com/the-zen-of-code/"/>
    <updated>2012-10-23T00:00:00-07:00</updated>
-   <id>mrmaksimize.com/code/the-zen-of-code</id>
+   <id>mrmaksimize.com/the-zen-of-code</id>
    <content type="html">&lt;p&gt;Sometimes you just need to get it out the door. Write fast, make it work, roll it out, accrue technical debt, deal with it later.&lt;/p&gt;
 
 &lt;p&gt;But is it worth it? Lately I&amp;rsquo;ve been pondering a lot about the zen that comes with good code: how it makes one feel as a developer, and what does it buy?&lt;/p&gt;
@@ -535,9 +535,9 @@ I found a great article about how achieve draft publishing in Jekyll.  Normally,
  
  <entry>
    <title>The Blog</title>
-   <link href="mrmaksimize.com/general/the-blog/"/>
+   <link href="mrmaksimize.com/the-blog/"/>
    <updated>2012-09-23T00:00:00-07:00</updated>
-   <id>mrmaksimize.com/general/the-blog</id>
+   <id>mrmaksimize.com/the-blog</id>
    <content type="html">&lt;p&gt;Oh man.  So I started a blog. Now I guess I should write stuff in it huh?  Fine. Here goes the first post.&lt;/p&gt;
 
 &lt;p&gt;A few thoughts. I&amp;rsquo;ve been playing a lot with &lt;a href=&quot;http://octopress.org/&quot;&gt;Octopress&lt;/a&gt; recently.  We just launched the new &lt;a href=&quot;http://allplayers.github.com&quot;&gt;AllPlayers Dev Blog&lt;/a&gt; built using just that.  The main idea was just to output an RSS feed for our podcasts, but we decided to write dev stuff there as well.&lt;/p&gt;
