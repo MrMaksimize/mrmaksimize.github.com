@@ -34,7 +34,7 @@ limit_posts: 10
 
 # Permalink structure and pagination options
 relative_permalinks: true
-permalink:   /:categories/:title/
+permalink:   /:title/
 paginate: 5
 paginate_path: 'page:num'
 excerpt_separator: '<!--break-->'
@@ -46,3 +46,10 @@ redcarpet:
   extensions: ['no_intra_emphasis', 'tables', 'fenced_code_blocks', 'autolink', 'smart',
               'strikethrough', 'superscript', 'underline', 'highlight', 'footnotes']
 highlighter: true
+
+# Tagging
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_feed_layout: tag_feed
+tag_feed_dir: tag
+tag_permalink_style: pretty

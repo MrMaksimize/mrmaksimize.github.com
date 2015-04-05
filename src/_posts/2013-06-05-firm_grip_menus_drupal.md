@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Firm Grip on Menus in Drupal"
-category: drupal
 ---
 
 

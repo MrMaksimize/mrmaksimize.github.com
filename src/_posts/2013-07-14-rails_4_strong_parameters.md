@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Rails 4 Strong Parameters"
-category: rails
 ---
 
 

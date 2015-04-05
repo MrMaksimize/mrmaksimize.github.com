@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Creating Custom UITableViewCells with NIB files"
-category: ios
 ---
 
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "The Zen Of Code"
-category: code
 ---
 
 

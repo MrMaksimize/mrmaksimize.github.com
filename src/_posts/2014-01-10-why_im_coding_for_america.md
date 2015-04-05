@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Why I'm Coding For America"
-category: government
 ---
 I am not a natural born United States citizen.  I spent the first ten years of my life in a country much different than this one, with a much different culture.  After arriving in the United States, I witnessed and participated in my family’s struggle to understand and work with the complex bureaucracies wrapped around immigration, food stamps, social security and public services.  I waited with my family in seemingly endless lines, only to be told I needed to go to a different building and wait in another endless line.  I learned that the system is flawed and wondered how to fix it.
 

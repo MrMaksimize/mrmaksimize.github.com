@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "ITA Spotlight -- ME!"
-category: general
 ---
 
 
