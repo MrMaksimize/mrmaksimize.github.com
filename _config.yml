@@ -5,6 +5,7 @@ description: Gov, Code, Thoughts. This is a place for me to speak freely and rep
 tagline: Gov Code Thoughts. This is a place for me to speak freely and represent no one.
 url: localhost:4000
 disqus_shortname: mrmaksimize
+sidebar_img: http://mrm-random.s3.amazonaws.com/dz/maksim.jpg
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: src
