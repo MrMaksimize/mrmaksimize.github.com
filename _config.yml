@@ -1,8 +1,8 @@
 # Title, decription, tagline and URL for your site
 # Can be used in your theme by calling 'site.title' and so on
-title: MrMaksimize
-description: Gov, Code, Thoughts are my own and represent no one.
-tagline: Gov Code Thoughts are my own and represent no one.
+title: Maksim.IO | MrMaksimize
+description: Gov, Code, Thoughts. This is a place for me to speak freely and represent no one.
+tagline: Gov Code Thoughts. This is a place for me to speak freely and represent no one.
 url: localhost:4000
 disqus_shortname: mrmaksimize
 
