@@ -3,25 +3,20 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Did you think you'll find a cool page here?  Maybe some day.
-</p>
 
 ##Hello There, I’m Maksim Pecherskiy!
 
-I'm a software developer who is passionate about government and technology.
+As the CDO for the City of San Diego, working in the Performance & Analytics Department, Maksim strives to bring the necessary components together to allow the City's residents to benefit from a more efficient, agile government that is as innovative as the community around it. In the first six months, he worked with coordinators from 35 departments to successfully complete the City’s first data inventory — an index of over 2000 datasets. He also began to build guidelines for how the city will manage and release its data and helped to host and plan the National Day of Civic Hacking in San Diego.
 
-I'm also the Chief Data Officer for the City of San Diego.  I love what I do, and I hope to be better at writing about it.
+He has been solving complex problems with technology for nearly a decade. He spent 2014 working as a Code For America fellow in Puerto Rico with a focus on economic development. His team delivered a product called PrimerPeso that provides business owners and residents a tool to search, and apply for, government programs for which they may be eligible.
 
-I hold a B.S. in Information Systems from DePaul University and a B.S. in International Business from Linkoping University.
+Before moving to California, Maksim was a Solutions Architect at Promet Source in Chicago where he built large web applications and designed complex integrations. He shaped workflow, configuration management and continuous integration processes, while leading and training international development teams. Before his work at Promet, he was a software engineer at AllPlayers, who was instrumental in the design and architecture of the company’s APIs as well as development and documentation of supporting client libraries in various languages.
 
-I'm an avid traveler and enjoy learning and interacting with new cultures, meeting new people, and arguing viewpoints that differ from mine. I adapt quickly to new cultures and always seek to push my comfort limits. I speak Russian, English, a decent amount of Spanish and just a little bit of French (I really mean very little).
+Maksim graduated from DePaul University with a bachelor of science degree in information systems and from Linköping University, Sweden, with a bachelor of science degree in international business. He is also certified as a Lean Six Sigma Green Belt.
 
-I also love animals. And so does my wonderful wife Amy.
+Maksim is an avid traveler and enjoys learning and interacting with new cultures, meeting new people, and arguing viewpoints that differ from his. He is fluent in Russian, English, and can sometimes speak Spanish.
 
-We have one one cool cat (Clifton), one fat cat (Kuma - aptly named after a burger joint), one crazy dog (Willow) and one chill dog (Sadie).
-
-I use this blog to share my experiences and my knowledge with the world.
+He also loves animals and his beautiful wife Amy. They have 2 cats and 2 dogs, effectively barring any of their allergic friends from entering their apartment.
 
 
 
