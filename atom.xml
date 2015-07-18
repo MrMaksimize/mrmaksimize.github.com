@@ -4,13 +4,36 @@
  <title>Maksim.IO | MrMaksimize</title>
  <link href="maksim.io/atom.xml" rel="self"/>
  <link href="maksim.io/"/>
- <updated>2015-07-18T15:09:13-07:00</updated>
+ <updated>2015-07-18T15:27:35-07:00</updated>
  <id>maksim.io</id>
  <author>
    <name>Maksim Pecherskiy</name>
    <email>max@maksimize.com</email>
  </author>
 
+ 
+ <entry>
+   <title>The Greek Financial Crisis</title>
+   <link href="maksim.io/greek_crisis/"/>
+   <updated>2015-07-18T00:00:00-07:00</updated>
+   <id>maksim.io/greek_crisis</id>
+   <content type="html">&lt;p&gt;These are some of my favorite YouTube video producers, and they recently just made a really great explainer about the Greek crisis and how the situation got to be so bad.  For the record, I&amp;rsquo;m not pretending to be super knowledgeable about this, but I have been following it on and off.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tigaryz-1y4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;One of the more interesting comments he makes during the video is how for the past ten years the Greek government has been mis-reporting their financial situation.  And when a new party would take over, they would make a really big fuss about how the previous administration was lying, only to continue the cycle themselves.&lt;/p&gt;
+
+&lt;p&gt;This may or may not be related, and perhaps this wasn&amp;rsquo;t the core of the problem, but it is worth thinking about the role of the [lack of] government transparency in this situation.&lt;/p&gt;
+
+&lt;p&gt;If the government had to report all the numbers (and not just the shiny aggregate statistics) to the public and its partners in the EU, perhaps this situation could be avoided.  And if that&amp;rsquo;s the case, then the onus wouldn&amp;rsquo;t have just been on the government, but rather the citizens and reporters as well &amp;ndash; to analyze this data &lt;em&gt;independently&lt;/em&gt; and provide the analysis in a reproducible format.&lt;/p&gt;
+
+&lt;p&gt;Just thoughts and a rant.  On a much lighter note, (at least as light as the Greek financial situation can be) here&amp;rsquo;s another great video about the crisis, but this time with some rapping involved:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ObpSd9DVD9E&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Quick and Dirty PDF Table Extraction</title>
