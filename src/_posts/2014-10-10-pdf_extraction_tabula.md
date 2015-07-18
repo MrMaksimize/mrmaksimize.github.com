@@ -1,9 +1,7 @@
 ---
 layout: post
 title: "Quick and Dirty PDF Table Extraction"
-tags:
-  data
-  extraction
+categories: "meta"
 ---
 
 Recently, I had to do a quick, dirty and un-automated extraction of some table data from PDF.  I need to take a single table out of a financial statement and extract it to CSV.
