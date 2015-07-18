@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Maksim.IO | MrMaksimize</title>
+ <link href="maksim.io/atom.xml" rel="self"/>
+ <link href="maksim.io/"/>
+ <updated>2015-07-18T15:49:24-07:00</updated>
+ <id>maksim.io</id>
+ <author>
+   <name>Maksim Pecherskiy</name>
+   <email>max@maksimize.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>The Greek Financial Crisis</title>
+   <link href="maksim.io/greek_crisis/"/>
+   <updated>2015-07-18T00:00:00-07:00</updated>
+   <id>maksim.io/greek_crisis</id>
+   <content type="html">&lt;p&gt;These are some of my favorite YouTube video producers, and they recently just made a really great explainer about the Greek crisis and how the situation got to be so bad.  For the record, I&amp;rsquo;m not pretending to be super knowledgeable about this, but I have been following it on and off.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tigaryz-1y4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;One of the more interesting comments he makes during the video is how for the past ten years the Greek government has been mis-reporting their financial situation.  And when a new party would take over, they would make a really big fuss about how the previous administration was lying, only to continue the cycle themselves. (Remember &amp;ndash; just going off the video &amp;ndash; I haven&amp;rsquo;t researched this too much).&lt;/p&gt;
+
+&lt;p&gt;It is worth thinking a little about the role of [lack of] government transparency in this situation.  This may or not be related, and may not be the core of the problem at all, but I&amp;rsquo;m willing to posit that it was a factor.&lt;/p&gt;
+
+&lt;p&gt;If it was the responsibility of the Greek Government to report all the numbers to the public fully, in terms of their budgeting, dept and deficit, I can&amp;rsquo;t help but wonder if this situation could&amp;rsquo;ve been avoided.  I&amp;rsquo;m guessing the Greek Gov would continually report aggregated statistics with no way to reproduce the results.  In my opinion, the farther you get get from the raw data, the more room there is for mistakes and manipulation &amp;ndash; malicious or not.&lt;/p&gt;
+
+&lt;p&gt;However, I&amp;rsquo;ll also point out that government transparency is only half the game.  The other part would&amp;rsquo;ve been on citizens, reporters, watchdog groups and other EU members to take this data, analyze it &lt;strong&gt;&lt;em&gt;independently&lt;/em&gt;&lt;/strong&gt; and provide the analysis in a reproducible format.  This way it&amp;rsquo;s not just data without the insights, but rather something actionable.&lt;/p&gt;
+
+&lt;p&gt;Just thoughts and a rant.  I read the Economist and I watch the news, but I&amp;rsquo;m no expert so don&amp;rsquo;t listen to me.&lt;/p&gt;
+
+&lt;p&gt;On a much lighter note, (at least as light as the Greek financial situation can be) here&amp;rsquo;s another great video about the crisis, but this time with some rapping involved:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ObpSd9DVD9E&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Quick and Dirty PDF Table Extraction</title>
+   <link href="maksim.io/pdf_extraction_tabula/"/>
+   <updated>2014-10-10T00:00:00-07:00</updated>
+   <id>maksim.io/pdf_extraction_tabula</id>
+   <content type="html">&lt;p&gt;Recently, I had to do a quick, dirty and un-automated extraction of some table data from PDF.  I need to take a single table out of a financial statement and extract it to CSV.&lt;/p&gt;
+
+&lt;p&gt;While you can find plenty of tutorials on how to automate this process, I didn&amp;rsquo;t really find a whole lot on doing it just once for a specific PDF.  So I wrote a quick tutorial.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;Actually, calling this a tutorial is probably a strecth.  It&amp;rsquo;s mainly a link to a &lt;a href=&quot;http://tabula.nerdpower.org/&quot;&gt;great piece of open source software called Tabula&lt;/a&gt;  and a recommendation to use it.  They do a good job telling you how to install it on their web page, and even provide a cool &lt;a href=&quot;https://webmaker.org/tools&quot;&gt;Popcorn Maker&lt;/a&gt; on how to use it. I&amp;rsquo;m embedding it below.  Enjoy!&lt;/p&gt;
+
+&lt;iframe src=&#39;https://erika.makes.org/popcorn/16ll_&#39; width=&#39;640&#39; height=&#39;403&#39; frameborder=&#39;0&#39; mozallowfullscreen webkitallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Webhooks: A Different Pattern</title>
+   <link href="maksim.io/webhooks/"/>
+   <updated>2014-09-03T00:00:00-07:00</updated>
+   <id>maksim.io/webhooks</id>
+   <content type="html">&lt;h3&gt;Integration&lt;/h3&gt;
+
+&lt;p&gt;is one of the many problems of software development for governments. Many different departments may have different systems and even different use cases for interacting with your application. It is often not feasible to try to integrate with every different system.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;In order to have a consistent conversation let&amp;rsquo;s define two terms:&lt;/p&gt;
+
+&lt;h3&gt;Some Definitions&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Provider Application&lt;/strong&gt; - the application that is in charge of the data the developer wants.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Consumer Application&lt;/strong&gt; - the application that wants to integrate with the provider.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;These do not denote importance or size - there are many situations where the Consumer is much larger and more important than the Provider.  Consider a scenario where various distributed news sources (providers) are pinging on aggregator site (consumer) when new information is available.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3&gt;A Scenario&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Most of this is accurate, but I might make up some facts to illustrate.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s imagine that I am the developer of a shiny new platform that will help business owners find financing and education opportunities from a government.  I am aggregating various opportunities provided by various organizations (in the context of Puerto Rico, we have Economic Development Bank (BDE), Tourism, Film Commission and Company of Export and Commerce (CCE) to name a few).&lt;/p&gt;
+
+&lt;p&gt;When someone seeking for financing fills out some basic information, my application (provider) is going to send a lead to the appropriate department (consumer), based on the programs my user indicates she/he wants to know more about.  BDE and CCE are running two different implementations of Microsoft Dynamics CRM. I&amp;rsquo;m not sure what Tourism and Film are running but I know for a fact that it&amp;rsquo;s not open source or Microsoft Dynamics.  I&amp;rsquo;m guessing something SharePoint based.&lt;/p&gt;
+
+&lt;p&gt;Add about 15 more departments or agencies to this scenario and you see where I&amp;rsquo;m going.&lt;/p&gt;
+
+&lt;h3&gt;A non viable solution.&lt;/h3&gt;
+
+&lt;p&gt;The most obvious solution would be to develop your application (the provider) as an API server.  Each of the departments (consumers) would have to write code that runs periodically that polls your server and see if there&amp;rsquo;s any new leads related to them.&lt;/p&gt;
+
+&lt;p&gt;While this is a worthwhile solution there are several problems:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;More work for departments (cron code, polling code is hard to write)&lt;/li&gt;
+&lt;li&gt;More work for you (either the developers in the departments or you would have to learn how to diff what&amp;rsquo;s new and what&amp;rsquo;s not.  And you want it to be you for the sake of sanity).&lt;/li&gt;
+&lt;li&gt;Heavier loads on your server - imagine lots of machines polling your server every 5 minutes.&lt;/li&gt;
+&lt;li&gt;Documentation and API changes become much more difficult because you have many people depending on the exact data structure.&lt;/li&gt;
+&lt;li&gt;Buy in is a lot more difficult - lots more work needed and departments often just don&amp;rsquo;t have the resources.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;A better solution - Webhooks!&lt;/h3&gt;
+
+&lt;p&gt;What if whenever a lead is submitted you can automatically notify the related department (consumer) with all the information in the lead, in real time?&lt;/p&gt;
+
+&lt;p&gt;The solution is pretty simple and the level of work in building it for our application (provider) is not more than building a standard API.&lt;/p&gt;
+
+&lt;p&gt;When departments create a new &amp;ldquo;Business Funding Opportunity&amp;rdquo; in our application, I am going to ask them for 2 extra fields:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A URL to hit when a lead is generated.&lt;/li&gt;
+&lt;li&gt;A secret token to send as part of that payload.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When the lead is generated, I&amp;rsquo;m going to send a standard (documented) set of data to the URL the department specified.  The payload will contain all the lead information, plus the secret token.  The developer on the department side needs only to provide me a path to hit where she/he checks for the token, and once we&amp;rsquo;re ok, she/he consumes the data I&amp;rsquo;m sending in the payload.&lt;/p&gt;
+
+&lt;p&gt;What does she/he do with the data?  It does not matter.  She can put it in Mongo and crunch numbers on it.  She can create a lead in the CRM.  She can do that and 30 other things.  And when she/he decides thing #29 is useless, she/he can get rid of it without picking up the phone to call me &amp;ndash; since all I&amp;rsquo;m doing is sending her/him the data in real time.&lt;/p&gt;
+
+&lt;p&gt;This concept is called Webhooks and they&amp;rsquo;re used all over the web.  Let&amp;rsquo;s take a look.&lt;/p&gt;
+
+&lt;h3&gt;Github Webhooks.&lt;/h3&gt;
+
+&lt;p&gt;Let&amp;rsquo;s explore Github.  They have a very sweet implementation of web hooks.&lt;/p&gt;
+
+&lt;p&gt;On my repository, I can trigger a webhook to fire on certain events. If you want to follow along, go to a repo you own, then go to Settings, then Webhooks and Services.  But I&amp;rsquo;ll post Screenshots.&lt;/p&gt;
+
+&lt;p&gt;As you can see, I currently have one webhook enabled.  This web hook will hit Slack, a messaging platform we use for communication and Slack will post various events in our chatroom.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://mrm-screen.s3.amazonaws.com/Webhooks__Services_2014-09-02_19-28-54_2014-09-02_19-29-04.png&quot; alt=&quot;Webhook Enabled&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;When I manage that webhook I see a bit more info:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://mrm-screen.s3.amazonaws.com/Webhook_-_httpscfa.slack.comserviceshooksgithub_2014-09-02_19-30-46_2014-09-02_19-31-11.png&quot; alt=&quot;Webhook Manage&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The payload URL I specify is given to me by Slack.  On the other end, a Slack web service just sits there and listens for the incoming data.&lt;/p&gt;
+
+&lt;p&gt;The content type is JSON but I could pick several others.&lt;/p&gt;
+
+&lt;p&gt;While this webhook doesn&amp;rsquo;t need it, I can specify a secret token for the receiver to verify the legitimacy of the incoming data.&lt;/p&gt;
+
+&lt;p&gt;The last arrow points to something specific for Github.  I can actually pick which events trigger a webhook.  Pretty sweet deal!.&lt;/p&gt;
+
+&lt;p&gt;As I scroll down I see a log of deliveries of the webhook:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://mrm-screen.s3.amazonaws.com/Webhook_-_httpscfa.slack.comserviceshooksgithub_2014-09-02_19-34-18_2014-09-02_19-34-24.png&quot; alt=&quot;Delivery Log&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see the URL always gets hit with the same standard set of data and the receiver knows how to process it.  In general the best practice is to send a lot of data on a webhook.  A bigger payload doesn&amp;rsquo;t hurt as much as an extra network connection.&lt;/p&gt;
+
+&lt;h3&gt;The choice is yours!!!&lt;/h3&gt;
+
+&lt;p&gt;Well, that&amp;rsquo;s all folks.  Next time you&amp;rsquo;re looking at doing some integration, consider webhooks.  They&amp;rsquo;re not the best for every use case, but let them be another tool in your toolbox.  They&amp;rsquo;re a great asset to have and you will encourage the developers to share what they have done.  It&amp;rsquo;s a great way to build community around your product and encourage code reuse.&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Continuous Deployment of Ghost from Github</title>
+   <link href="maksim.io/ghost_continous_deployment/"/>
+   <updated>2014-02-08T00:00:00-08:00</updated>
+   <id>maksim.io/ghost_continous_deployment</id>
+   <content type="html">&lt;p&gt;As part of my fellowship at &lt;a href=&quot;http://codeforamerica.org&quot;&gt;Code For America&lt;/a&gt;, my team had to set up a blog in order to keep everyone updated about what we&amp;rsquo;re doing and how everything is going.  Most teams just set up a tumblr blog.  However I had some ethical qualms about doing that and successfully was able to convince my team to agree to running &lt;a href=&quot;http://tryghost.org&quot;&gt;Ghost&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;Ghost is a very interesting blogging platform.  It came about as an answer to the bloat of WordPress into a massive CMS which is pretty resource intensive.  It&amp;rsquo;s written entirely in Node with SQLite3 database backend.  Additionally, it provides for a very nice interface in editing posts using Markdown and basically does everything you need a simple publishing platform to do for you.&lt;/p&gt;
+
+&lt;p&gt;After I set it up, my team&amp;rsquo;s designer, Ainsley wanted to make some CSS changes to the blog and the theme.  She would make the changes, push them up to GitHub, but the problem was she was waiting for me to jump onto the server and pull the changes in.  On top of that, every time the codebase needs an update, the Ghost service on the machine needs to be restarted.&lt;/p&gt;
+
+&lt;p&gt;This now meant I was a bottleneck to any development being done on the blog.  I didn&amp;rsquo;t like it.&lt;/p&gt;
+
+&lt;p&gt;I started researching into how to automate this process, and found a few articles. Namely these two helped out:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://fideloper.com/node-github-autodeploy&quot;&gt;Fideloper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://gun.io/blog/tutorial-deploy-node-js-server-with-example/&quot;&gt;Gun.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I would definitely recommend reading them.  However, my use case wasn&amp;rsquo;t as complex as these articles describe.  However, they did point me a to pretty sweet node package called &lt;a href=&quot;https://github.com/coreh/hookshot&quot;&gt;HookShot&lt;/a&gt;.  It&amp;rsquo;s an extremely simple tool that allows you to listen for incoming GitHub post-receive hooks and react accordingly.  You can use it as a library, a CLI tool, or even mount it on top of your existing Express servers.&lt;/p&gt;
+
+&lt;p&gt;So, here are the steps&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I am making assumptions here such as you&amp;rsquo;re running Ubuntu and have Upstart&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Make an upstart steps for running you ghost service.&lt;/h3&gt;
+
+&lt;p&gt;Make a file in &lt;code&gt;/etc/init/ghost-YOUR_SITE_NAME.conf&lt;/code&gt;
+Add the following:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;# ghost-YOUR_SITE_NAME
+
+start on startup
+
+script
+    cd /path/to/your/ghost/root
+    npm start --production
+end script&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This will let you run the ghost process as a service.&lt;/p&gt;
+
+&lt;h3&gt;Write the listener script&lt;/h3&gt;
+
+&lt;p&gt;Pick a port where you know nothing is running.  If you look at Ghost&amp;rsquo;s config.js file, you will see what port the ghost service is started.  You can always run &lt;code&gt;netstat --listen&lt;/code&gt; and see if the port number you chose is being used by a service.&lt;/p&gt;
+
+&lt;p&gt;Create a file and add it to the code base at the root of ghost;  I called it &lt;code&gt;deploy_listener.js&lt;/code&gt;, but really the name doesn&amp;rsquo;t matter.  I&amp;rsquo;m considering renaming it to something that has to do with monkeys, because I like monkeys.  The contents of the file are pretty simple:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;var hookshot = require(&amp;#39;hookshot&amp;#39;);
+hookshot(&amp;#39;refs/heads/master&amp;#39;, &amp;#39;git fetch origin &amp;amp;&amp;amp; git checkout origin/master &amp;amp;&amp;amp; service ghost-coqui restart&amp;#39;).listen(PORT_NUMBER)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Don&amp;rsquo;t forget to replace the port number&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we&amp;rsquo;re going to have a process listening, but putting nginx in front of this process as well didn&amp;rsquo;t seem to make a lot of sense to me. The nginx would have to listen to either a subdomain or another port, and the next step would be necessary either way.  So I decided to bypass messing with nginx and opened up the firewall directly to the node server:&lt;/p&gt;
+
+&lt;h3&gt;Opening up the firewall for the listener&lt;/h3&gt;
+
+&lt;p&gt;Now, we need to open the IPTABLES firewall to allow requests to the port that hookshot will be running on.  This command should do it for us:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;# Need to be a priviledged user
+$ sudo iptables -I INPUT 4 -p tcp --dport 9001 -j ACCEPT # (I)nserts this rule after the 4th iptables firewall rule&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;Starting and running the hookshot process&lt;/h3&gt;
+
+&lt;p&gt;Last part but not least, we need to start the hookshot process to listen for webhooks from GitHub.&lt;/p&gt;
+
+&lt;p&gt;I just took the much easier way and installed forever to run the listener, but I&amp;rsquo;m pretty sure you can just set it up as another upstart process.  In fact, you probably should since that would allow it to start running whenever your server gets rebooted. If you want to do that:&lt;/p&gt;
+
+&lt;p&gt;Make a file in &lt;code&gt;/etc/init/ghost-YOUR_SITE_NAME-listener.conf&lt;/code&gt;
+Add the following:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;# ghost-YOUR_SITE_NAME-listener
+
+start on startup
+
+script
+    cd /path/to/your/ghost/root
+    node deploy_listener.js
+end script&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The other option is use forever to run the process.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;npm install -g forever
+forever start /path/to/your/ghost/deploy_listener.js&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;Getting github&amp;rsquo;s webhook set up&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Go To Settings on your GitHub repo: &lt;img src=&quot;https://monosnap.com/image/wLflXqInHVFsMsMBMMsaZoelSSeHVr.png&quot; alt=&quot;Github Settings&quot;&gt;&lt;/li&gt;
+&lt;li&gt;In the left menu, select Service Hooks.&lt;/li&gt;
+&lt;li&gt;Under services click on Webhook URLs and add the url of your path with the port number after it. For example for our blog it&amp;rsquo;s &lt;code&gt;coquicoders.org:9732&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;After you save, you should have a button to test the hook &lt;img src=&quot;https://monosnap.com/image/uNqdDjBeq4jwFVedg9Chk3Dw211UGf.png&quot; alt=&quot;Screenshot&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Test the hook and make sure it works.  It might help for testing if you just run &lt;code&gt;node deploy_helper.js&lt;/code&gt; before you start it up as a forever or upstart process, just so you can see it working.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Things to look into&lt;/h3&gt;
+
+&lt;p&gt;You know how I said this is quick and dirty.  I meant it.  If you have suggestions or notes, please do let me know.  Here are the things I know I need to look into:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Should I put nginx in front of the hookshot listener?&lt;/li&gt;
+&lt;li&gt;Permissions for restarting the ghost service?&lt;/li&gt;
+&lt;li&gt;I don&amp;rsquo;t think I need to use forever since I can just run the hookshot listener as a service.&lt;/li&gt;
+&lt;li&gt;It may make sense to just inject hookshot directly into ghost to avoid opening up yet another port.&lt;/li&gt;
+&lt;li&gt;Hardening the whole thing&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Why I'm Coding For America</title>
+   <link href="maksim.io/why_im_coding_for_america/"/>
+   <updated>2014-01-10T00:00:00-08:00</updated>
+   <id>maksim.io/why_im_coding_for_america</id>
+   <content type="html">&lt;p&gt;I am not a natural born United States citizen.  I spent the first ten years of my life in a country much different than this one, with a much different culture.  After arriving in the United States, I witnessed and participated in my family’s struggle to understand and work with the complex bureaucracies wrapped around immigration, food stamps, social security and public services.  I waited with my family in seemingly endless lines, only to be told I needed to go to a different building and wait in another endless line.  I learned that the system is flawed and wondered how to fix it.&lt;/p&gt;
+
+&lt;p&gt;I have always been curious in understanding how cities develop, sustain and function, and I have been fortunate enough to explore these topics in many cities and countries across the globe.  Just like every human being, every city&amp;ndash;while maintaining similarity in the most obvious and general features&amp;ndash;is an extremely unique and complicated living organism.&lt;/p&gt;
+
+&lt;p&gt;And just like when doctors treat human beings, often unsure that the decision or action they’re taking will help rather than harm the patient, oftentimes the people making decisions for a city simply do not have the information to be confident in the outcome of their actions.&lt;/p&gt;
+
+&lt;p&gt;I have always been the observer.  I always wondered, read, asked, but never acted. I saw, but never dove deep enough to understand. I often wondered how my skills could be of help, but was never really able to answer the question on my own.&lt;/p&gt;
+
+&lt;p&gt;Today we have the technology and the knowledge to help governments make better decisions, provide better services to their residents, and to improve the quality of numerous people’s lives.&lt;/p&gt;
+
+&lt;p&gt;That’s why I’m coding for America.  As a Code For America fellow, I have an opportunity to no longer be the observer, but the doer.  I have a chance to dive in deep and use my skills to help fix and improve the systems that each of us interacts with on a daily basis.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ITA Spotlight -- ME!</title>
+   <link href="maksim.io/ita_spotlight/"/>
+   <updated>2013-10-16T00:00:00-07:00</updated>
+   <id>maksim.io/ita_spotlight</id>
+   <content type="html">&lt;!--leadstart--&gt;
+
+&lt;p&gt;I guess it&amp;rsquo;s weird to be writing a blog post about myself.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m not that great at shameless self promotion.  But it was pretty cool that the &lt;a href=&quot;http://www.illinoistech.org&quot;&gt;Illinois Technology Association&lt;/a&gt; chose to do a spot light on me as the Solutions Architect for &lt;a href=&quot;http://prometsource.com&quot;&gt;Promet Source&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I personally don&amp;rsquo;t think I&amp;rsquo;m THAT awesome, but hey, I&amp;rsquo;ll take the props.  So, thanks ITA and Promet!!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.illinoistech.org/story.aspx/312183&quot;&gt;ITA Spotlight: Maksim Pecherskiy-Promet Source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.builtinchicago.org/blog/interview-maksim-pecherkiy-solutions-architect-promet-source&quot;&gt;Interview Repost on Built In Chicago&lt;/a&gt; by our wonderful marketing manager &lt;a href=&quot;http://www.prometsource.com/people/maggie-graham&quot;&gt;Maggie Graham&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.prometsource.com/our-solutions-architect-featured-illinois-technology-associaton&quot;&gt;Interview Repost on PrometSource Blog&lt;/a&gt; &amp;ndash; again thanks to &lt;a href=&quot;http://www.prometsource.com/people/maggie-graham&quot;&gt;Maggie&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--leadend--&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Rails 4 Strong Parameters</title>
+   <link href="maksim.io/rails_4_strong_parameters/"/>
+   <updated>2013-07-14T00:00:00-07:00</updated>
+   <id>maksim.io/rails_4_strong_parameters</id>
+   <content type="html">&lt;p&gt;So I&amp;rsquo;ve been going through the awesome &lt;a href=&quot;http://tutorials.jumpstartlab.com/&quot;&gt;JumpStart Labs Tutorials&lt;/a&gt; lately to learn some rails and found a small bug in the tutorial.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s not really a bug though. The tutorial was made with Rails 3.x in mind and I&amp;rsquo;ve been using Rails 4.  So I found a small discrepancy and submitted an &lt;a href=&quot;https://github.com/JumpstartLab/curriculum/issues/606&quot;&gt;issue&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I was strongly encouraged to blog about my journeys into Rails and Ruby so this is one of those posts.  Really hoping someone finds this useful.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;There&amp;rsquo;s a section in the tutorials that talks about Rails protection so you can&amp;rsquo;t just directly save parameters coming into the form in the controller.  This is a great thing so people can&amp;rsquo;t just submit bogus data or do something worse.  In the &lt;a href=&quot;http://tutorials.jumpstartlab.com/projects/blogger.html#i1:-form-based-workflow&quot;&gt;Form Based Workflow&lt;/a&gt; section of the tutorial, they mention adding &lt;code&gt;attr_accessible&lt;/code&gt; to be able to save the parameters coming into the form.&lt;/p&gt;
+
+&lt;p&gt;I tried this and got an error saying this was deprecated in Rails 4 and has been moved off to a separate gem.&lt;/p&gt;
+
+&lt;p&gt;After a bit of googling around, I found &lt;a href=&quot;http://rubysource.com/rails-4-quick-look-strong-parameters/&quot;&gt;a great article from RubySource&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The long and short of it is this.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The protected parameters is a separate gem now, but is included in Rails 4&lt;/li&gt;
+&lt;li&gt;I added &lt;code&gt;config.active_record.whitelist_attributes = true&lt;/code&gt; to config/application.rb&lt;/li&gt;
+&lt;li&gt;Added &lt;code&gt;include ActiveModel::ForbiddenAttributesProtection&lt;/code&gt; to my Articles model.&lt;/li&gt;
+&lt;li&gt;Added the following method to my articles controller:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;def article_params
+        params[:article].permit(:title, :body)
+    end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And finally, updated my Create controller accordingly:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;def create
+      @article = Article.new(article_params)
+      @article.save
+      redirect_to article_path(@article)
+    end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Definitely learned something useful.  You can also use permit to allow certain users to edit certain fields if you wish as well.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Firm Grip on Menus in Drupal</title>
+   <link href="maksim.io/firm_grip_menus_drupal/"/>
+   <updated>2013-06-05T00:00:00-07:00</updated>
+   <id>maksim.io/firm_grip_menus_drupal</id>
+   <content type="html">&lt;p&gt;For many that have worked with Drupal in teams before, I&amp;rsquo;m sure you have run into problems with managing menus.
+There are many ways to create a menu item in Drupal, one of them being from the menu editor, and others when creating content or views, or panels pages.&lt;/p&gt;
+
+&lt;p&gt;The menu items created when you&amp;rsquo;re creating content, views or panels override any configurations you may have set in the menu editor, hence the source of the problem.&lt;/p&gt;
+
+&lt;p&gt;In addition, the way that menu items are stored in features, they get explicitly linked to node id.  So if you have a page on dev that&amp;rsquo;s node/5 and the same page that lives on staging that&amp;rsquo;s at node/6 and prod is node/7, it&amp;rsquo;s extremely different to move menu configurations across environments.&lt;/p&gt;
+
+&lt;p&gt;This was causing a ton of wasted time and even more frustration.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;Anyway, long story short, I needed a way to manage the menus on the site with an extremely firm grip.&lt;/p&gt;
+
+&lt;p&gt;I found this great module called &lt;a href=&quot;https://drupal.org/project/menu_import&quot;&gt;Menu Import&lt;/a&gt;;  The original purpose was to be able to create IA on a drupal site by simply creating a JSON file and running a drush command.  The module will create the needed pages for you and the menu structure.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s look at an example menu export file: (Grabbed it from the &lt;a href=&quot;https://drupal.org/project/menu_import&quot;&gt;module page&lt;/a&gt;)&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;Pages {&amp;quot;url&amp;quot;:&amp;quot;pages/all&amp;quot;}
+- Site {&amp;quot;url&amp;quot;:&amp;quot;http://external-site.com/&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;Visit our site.&amp;quot;}
+- Story {&amp;quot;url&amp;quot;:&amp;quot;node/3&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;A very interesting story!&amp;quot;}
+- Story {&amp;quot;url&amp;quot;:&amp;quot;content/about&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;About us&amp;quot;}
+-- Some node {&amp;quot;url&amp;quot;:&amp;quot;node/4&amp;quot;,&amp;quot;lang&amp;quot;:&amp;quot;da&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;Links is in Danish language&amp;quot;}
+Archive
+- Admin zone {&amp;quot;url&amp;quot;:&amp;quot;admin/appearance&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;Internal link with description.&amp;quot;}
+A page {&amp;quot;description&amp;quot;:&amp;quot;Description only, no link.&amp;quot;,&amp;quot;hidden&amp;quot;:true,&amp;quot;expanded&amp;quot;:true}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;As you can see - you can definitely use router paths like &lt;code&gt;node/3&lt;/code&gt; but you can also use alias paths for nodes as well like &amp;lsquo;content/about&amp;rsquo;.  This means now we don’t have to worry about the node id, only the path.&lt;/p&gt;
+
+&lt;p&gt;Menu Import also has a nice little piece of functionality where you can export your current menu structure to a json file.  So that&amp;rsquo;s what I did -&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;drush menu-export main-menu-export.txt main-menu
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I then saved the file inside of the feature where I wanted my menu structure to be.&lt;/p&gt;
+
+&lt;p&gt;And subsequently, I added the following to the feature&amp;rsquo;s .module file:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&amp;lt;?php
+function my_menu_feature_pre_features_revert($component) {
+  // I actually had two menus, that&amp;#39;s why the foreach loop.
+  $menu_export_files = array(
+    &amp;#39;main-menu&amp;#39; =&amp;gt; &amp;#39;main-menu-export.txt&amp;#39;,
+  );
+  $results = array();
+  if ($component == &amp;#39;menu_custom&amp;#39;) {
+    if (!function_exists(&amp;#39;menu_import_file&amp;#39;)) {
+      module_enable(array(&amp;#39;menu_import&amp;#39;));
+    }
+    $path = drupal_get_path(&amp;#39;module&amp;#39;, &amp;#39;my_menu_feature&amp;#39;);
+    foreach ($menu_export_files as $menu_name =&amp;gt; $menu_export_file) {
+      $result = menu_import_file($path . &amp;#39;/&amp;#39; . $menu_export_file, $menu_name, array(
+        &amp;#39;link_to_content&amp;#39; =&amp;gt; TRUE,
+        &amp;#39;create_content&amp;#39; =&amp;gt; FALSE,
+        &amp;#39;remove_menu_items&amp;#39; =&amp;gt; TRUE,
+      ));
+      $results[$menu_name] = $result;
+    }
+    drush_print_r($results);
+  }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And the following to the .info file:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;features[menu_custom][] = main-menu&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;That&amp;rsquo;s it! Now, when I run &lt;code&gt;drush fr -y --force commons_main_menu&lt;/code&gt;, it will force revert the feature and run the menu-import to update my menu items, deleting any previous problems before doing so.&lt;/p&gt;
+
+&lt;p&gt;The reason I need to do a &lt;code&gt;--force&lt;/code&gt; is because features may not detect any menu change configurations, so I&amp;rsquo;m forcing it to revert.&lt;/p&gt;
+
+&lt;p&gt;That is all friends. Enjoy your menu stability!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Draft Publishing In Jekyll</title>
+   <link href="maksim.io/draft-workflow-in-jekyll/"/>
+   <updated>2013-04-28T00:00:00-07:00</updated>
+   <id>maksim.io/draft-workflow-in-jekyll</id>
+   <content type="html">&lt;p&gt;This is a short one.
+I found a great article about how achieve draft publishing in Jekyll.  Normally, you would generate a new post, and whether it&amp;rsquo;s done or not, jekyll will publish it.  However, with this you can create a bunch of stuff in the drafts folder, then move it to the publish directory, and the plugin will take it from the publish directory, append the proper date to it, and move it to posts.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jeffreysambells.com/2013/02/01/jekyll-draft-publishing-plugin&quot;&gt;Read On Here&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Creating Custom UITableViewCells with NIB files</title>
+   <link href="maksim.io/Custom-UITableViewCell-With-NIB/"/>
+   <updated>2012-11-13T00:00:00-08:00</updated>
+   <id>maksim.io/Custom-UITableViewCell-With-NIB</id>
+   <content type="html">&lt;p&gt;Well this sucks.  Apparently these days you can only use the Interface Builder to design your cell in XCode if you&amp;rsquo;re using Storyboards.  But no worries. I have found a workaround which plays very nicely in iOS5+.  Let&amp;rsquo;s get to it!&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m assuming you already know so iOS and objective C, so I&amp;rsquo;ll save the prep for another blog post.  Let&amp;rsquo;s get down to business.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;You have your TableViewController.h and .m files ready. Now you want to create a sleek custom cell.&lt;/p&gt;
+
+&lt;p&gt;Create a new file (File -&amp;gt; New -&amp;gt; Objective C Class -&amp;gt; Subclass of UITableViewCell).  Note that the option to create a XIB for user interface is not available.  That&amp;rsquo;s fine for now.  Let&amp;rsquo;s call this class &lt;code&gt;EXCustomCell&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;This will get XCode to create 2 files - EXCustomCell.h and EXCustomCell.m.&lt;/p&gt;
+
+&lt;p&gt;In the EXCustomCell.h file, right below @interface line, add&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;@property (nonatomic, strong) IBOutlet UILabel *cellItemLabel;
+@property (nonatomic, strong) IBOutlet UIImageView *cellItemImageView;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;These are the properties of the cell.  Add more to your liking!  For every one that you want to add in IB and control programmatically, you&amp;rsquo;ll need one.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m assuming you&amp;rsquo;re using the latest version of XCode, so you won&amp;rsquo;t need to @synthesize.  But just in case you&amp;rsquo;re not on the latest,&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;@synthesize cellItemImageView, cellItemLabel;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;right under the @implementation line at the top of the EXCustomCell.m file.&lt;/p&gt;
+
+&lt;p&gt;Ok, now we&amp;rsquo;ve done all the setup work, time for some IB fun!&lt;/p&gt;
+
+&lt;p&gt;Go to File -&amp;gt; New, in the left hand column select User Interface, and pick View.  Leave iPhone for Device Family and title the file EXCustomCell.xib&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog_post_images/custom_uitableviewcell/add_view.png&quot; alt=&quot;Select View&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on the file to open up Interface Builder.&lt;/p&gt;
+
+&lt;p&gt;In the left hand column, under objects, click once on View and hit the delete button on your keyboard.
+&lt;img src=&quot;/assets/images/blog_post_images/custom_uitableviewcell/remove_view.png&quot; alt=&quot;Remove View&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Drag in a Table View Cell from the Object Library&lt;/p&gt;
+
+&lt;p&gt;Click on File&amp;rsquo;s Owner, pick the Identity Panel, and make sure that NSObject is selected as the custom class.&lt;/p&gt;
+
+&lt;p&gt;Click on the Cell you just dragged in and make sure its custom class is EXCustomCell&lt;/p&gt;
+
+&lt;p&gt;Drag in an ImageView and a Label.&lt;/p&gt;
+
+&lt;p&gt;This is important.  Right click on the Custom cell under objects, pick the cellItemImageView and drag it over to the image, and repeat the same for cellItemLabel (except drag it to the label).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog_post_images/custom_uitableviewcell/drag_ibaction.png&quot; alt=&quot;Drag IBACTION&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Add #import &amp;ldquo;EXCustomCell.h&amp;rdquo; to your TableViewController.m file&lt;/p&gt;
+
+&lt;p&gt;Now in your TableViewController.m file, at the viewDidLoad method:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    [self.tableView registerNib:[UINib nibWithNibName:@&amp;quot;EXCustomCell&amp;quot;
+                         bundle:[NSBundle mainBundle]]
+         forCellReuseIdentifier:@&amp;quot;CustomCellReuseID&amp;quot;];
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Note that  &lt;code&gt;- (void) registerNib:(UINib*)nib forCellReuseIdentifier:(NSString*)identifier;&lt;/code&gt; is an iOS 5+ method.  So be careful!&lt;/p&gt;
+
+&lt;p&gt;And in cellForRowAtIndexPath:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @&amp;quot;CustomCellReuseID&amp;quot;;
+    EXCustomCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+
+    // Configure the cell...
+    [cell.cellItemImage setImage:[UIImage imageNamed:@&amp;quot;glyphicons_428_podium&amp;quot;]];
+    [cell.cellItemLabel setText = @&amp;quot;Mr Burns.&amp;quot;];
+    return cell;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That&amp;rsquo;s it!! Now you can make a custom cell use a XIB file and screw those storyboard snobs!!!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/MrMaksimize/iOS-Dev-Boilerplates/tree/master/ExampleCustomCell&quot;&gt;Grab the code!&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Zen Of Code</title>
+   <link href="maksim.io/the-zen-of-code/"/>
+   <updated>2012-10-23T00:00:00-07:00</updated>
+   <id>maksim.io/the-zen-of-code</id>
+   <content type="html">&lt;p&gt;Sometimes you just need to get it out the door. Write fast, make it work, roll it out, accrue technical debt, deal with it later.&lt;/p&gt;
+
+&lt;p&gt;But is it worth it? Lately I&amp;rsquo;ve been pondering a lot about the zen that comes with good code: how it makes one feel as a developer, and what does it buy?&lt;/p&gt;
+
+&lt;p&gt;Take a module that you&amp;rsquo;ve hammered out over the past three weeks. It&amp;rsquo;s a quick fix for something that needs to happen on a deadline, and you just didn&amp;rsquo;t have time to write comments, conform to coding standards, and look for functions to reuse.&lt;/p&gt;
+
+&lt;p&gt;The days are getting shorter and the problems are getting smaller, until you&amp;rsquo;re finally done! Great! You&amp;rsquo;ve made it work with a messy patchwork of if statements, for loops and undocumented functions. The deadline hits. But wait. The requirements have changed just a bit. The change is small, but because you haven&amp;rsquo;t taken the time to think about how you structured your objects, it&amp;rsquo;ll require a massive rewrite.  Bummer.&lt;/p&gt;
+
+&lt;p&gt;You get back to drawing board and try to figure out what get_mapped_tree_nodes($id, $level, $active, &amp;amp;$tree) does.  Think about it for a while and can&amp;rsquo;t remember. Man should&amp;rsquo;ve documented this. Let&amp;rsquo;s debug. A few repeats of this later, angry and confused you finally finish and complete the requirements. Great! You&amp;rsquo;re done!&lt;/p&gt;
+
+&lt;p&gt;Submit your pull request, get your peers to review. Approve Approve! Let&amp;rsquo;s get this in!  After the merge, you guys realize that you just crashed your production environment because bad coding standards made your reviewers miss a major bug. Try to see what caused it. Which commit was this? Was it &lt;code&gt;Add pf3 to ln42&lt;/code&gt; or &lt;code&gt;Add pf2 to gs43&lt;/code&gt;? Nuff said.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;A month later another project requires very similar functionality, but because you failed to properly abstract your functions, you can&amp;rsquo;t just pull them out or reuse them. On top of that, you don&amp;rsquo;t know what half of them do, and the datasets you used for testing before are gone. Sigh. Another 3 weeks of sleepless nights. Let&amp;rsquo;s write more code.&lt;/p&gt;
+
+&lt;p&gt;Don&amp;rsquo;t tell me this never happened to you. I won&amp;rsquo;t tell you it&amp;rsquo;s never happened to me. And you know what? I guarantee it&amp;rsquo;ll happen to both of us time and time again. So how do we STOP?&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been thinking about this for a while, and I have come to believe there is a certain zen that comes with writing good code. Just like good deeds beget good deeds, bad code begets bad code, and good code begets good code. It&amp;rsquo;s like a windfall. You can&amp;rsquo;t start off messy and all of a sudden switch to clean and structured, and you can&amp;rsquo;t do it in reverse.&lt;/p&gt;
+
+&lt;p&gt;Well-written code takes time. It requires care, attention and love. It needs nurturing and refactoring. Worst of all, it craves extra time&amp;ndash;time that you may not have to give. But just like a child caring for their parent in their sunset years, good code will be sure to take care of you. It&amp;rsquo;ll be there when you need it for reuse on your next project, and it&amp;rsquo;ll be there when the requirements change. You can&amp;rsquo;t say that about the mumbo jumbo you just wrote to fulfill the latest requirement.&lt;/p&gt;
+
+&lt;p&gt;There is no bullet list to follow in this post because every language has its proper structure and usage. No guidelines, no rules. But there is a mindset. Don&amp;rsquo;t be afraid to go back and refractor your functions for the better. Don&amp;rsquo;t be scared of breaking that 5000 line file into 10 smaller ones if it makes sense. And take the damn time to make your commit messages make some sense. Oh and write some docs!&lt;/p&gt;
+
+&lt;p&gt;I guarantee, when you make that pull request, or when you come back to to reuse your code on the next project, you&amp;rsquo;ll feel much happier. Much calmer. Much more complete.&lt;/p&gt;
+
+&lt;p&gt;Ready? Take a deep breath. Get a beer. Get a coffee. Mix them together and chug. Now you&amp;rsquo;re in a perfect state to write good code. Give it some love!&lt;/p&gt;
+
+&lt;p&gt;(Image from &lt;a href=&quot;http://xkcd.com/844/&quot;&gt;xkcd&lt;/a&gt;)&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Blog</title>
+   <link href="maksim.io/the-blog/"/>
+   <updated>2012-09-23T00:00:00-07:00</updated>
+   <id>maksim.io/the-blog</id>
+   <content type="html">&lt;p&gt;Oh man.  So I started a blog. Now I guess I should write stuff in it huh?  Fine. Here goes the first post.&lt;/p&gt;
+
+&lt;p&gt;A few thoughts. I&amp;rsquo;ve been playing a lot with &lt;a href=&quot;http://octopress.org/&quot;&gt;Octopress&lt;/a&gt; recently.  We just launched the new &lt;a href=&quot;http://allplayers.github.com&quot;&gt;AllPlayers Dev Blog&lt;/a&gt; built using just that.  The main idea was just to output an RSS feed for our podcasts, but we decided to write dev stuff there as well.&lt;/p&gt;
+
+&lt;p&gt;I do see the appeal. I most definitely prefer the fully version controlled, markdown preview automatic Octopress.  And with a single command your site is pushed to github and live.  The templating is much better (sorry Drupal render arrays), and the built in SASS is also a win.   However, when I tried to add in a new feature, it turned out to be such a pain. I had to dig through so many different template files, mess with Mustache templating (I think that&amp;rsquo;s what they use), just to get it working.&lt;/p&gt;
+
+&lt;p&gt;I also can&amp;rsquo;t push APIs out of Octopress, consume feeds, or just mess around just for fun. It&amp;rsquo;s limiting.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, as I&amp;rsquo;m writing this post (in the Drupal editing interface by the way), I am truly appreciating the fact that to add the wonderful trash can image only took me a few clicks. But I don&amp;rsquo;t appreciate that I can&amp;rsquo;t preview my markdown before I save it (or hit the preview button which I never use).&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;So, before writing this, my brain that hates writing stuff and likes writing code started churning and thinking about how I can merge static html generation of Octopress with the flexibility of Drupal.  The answer at first seems pretty clear.  &lt;a href=&quot;http://www.drupal.org/project/feeds&quot;&gt;Feeds&lt;/a&gt;.  So I&amp;rsquo;ve been toying with the idea of generating a feed from &lt;a href=&quot;http://mrmaksimize.github.com&quot;&gt;mrmaksimize.github.com&lt;/a&gt; and pulling it into this site.&lt;/p&gt;
+
+&lt;p&gt;Yes yes, there will probably be duplicate SEO content. Damn it. But I can always get around that with a few tags.  There will also be a pain the ass of maintaining 2 websites. Well Octopress isn&amp;rsquo;t too much to maintain (compared to Drupal at least. Op gotta update a module).  Plus, if I can figure out a way to mess with github to redirect any non-feed requests back to this site, I&amp;rsquo;m in the clear.&lt;/p&gt;
+
+&lt;p&gt;The only thing I haven&amp;rsquo;t really thought of is how to get posts written here back to Octopress.  That would be a doozy. Have to think about that one.&lt;/p&gt;
+
+&lt;p&gt;Oh well, just a rant. Hope you guys like reading stuff I write.  I decided not to be anal about my writing here, and just to let it spew.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
