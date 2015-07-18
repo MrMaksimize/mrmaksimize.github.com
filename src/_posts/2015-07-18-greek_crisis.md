@@ -11,9 +11,9 @@ One of the more interesting comments he makes during the video is how for the pa
 
 It is worth thinking a little about the role of [lack of] government transparency in this situation.  This may or not be related, and may not be the core of the problem at all, but I'm willing to posit that it was a factor.
 
-If it was the responsibility of the Greek Government to report all the numbers to the public fully, in terms of their budgeting, dept and deficit, I can't help but wonder if this situation could've been avoided.  I'm guessing the Greek Gov would continually report aggregated statistics with no way to reproduce the results.  In my opinion, the farther you get get from the raw data, the more room there is for mistakes and manipulation -- malicious or not.
+If it was the responsibility of the Greek Government to report all the numbers related to budgeting, debt, and deficit to the public fully and in a machine readable format, I can't help but wonder if this situation could've been avoided, or at least lessened.  I'm guessing the Greek Government would continually report aggregated statistics with no way to reproduce the results.  The further you get from the raw data, the more room there is for mistakes and manipulation -- malicious or not.
 
-However, I'll also point out that government transparency is only half the game.  The other part would've been on citizens, reporters, watchdog groups and other EU members to take this data, analyze it ***independently*** and provide the analysis in a reproducible format.  This way it's not just data without the insights, but rather something actionable.
+However, I'll also point out that government transparency is only half the game.  The other part would've been on citizens, reporters, watchdog groups and other EU members to take this data, analyze it ***independently*** and provide the analysis in a reproducible format.  This way it's not just data without the insights, but rather something actionable, credible and reproducible.
 
 Just thoughts and a rant.  I read the Economist and I watch the news, but I'm no expert so don't listen to me.
 
