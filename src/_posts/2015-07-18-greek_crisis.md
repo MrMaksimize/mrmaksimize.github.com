@@ -7,13 +7,17 @@ These are some of my favorite YouTube video producers, and they recently just ma
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tigaryz-1y4" frameborder="0" allowfullscreen></iframe>
 
-One of the more interesting comments he makes during the video is how for the past ten years the Greek government has been mis-reporting their financial situation.  And when a new party would take over, they would make a really big fuss about how the previous administration was lying, only to continue the cycle themselves.
+One of the more interesting comments he makes during the video is how for the past ten years the Greek government has been mis-reporting their financial situation.  And when a new party would take over, they would make a really big fuss about how the previous administration was lying, only to continue the cycle themselves. (Remember -- just going off the video -- I haven't researched this too much).
 
-This may or may not be related, and perhaps this wasn't the core of the problem, but it is worth thinking about the role of the [lack of] government transparency in this situation.
+It is worth thinking a little about the role of [lack of] government transparency in this situation.  This may or not be related, and may not be the core of the problem at all, but I'm willing to posit that it was a factor.
 
-If the government had to report all the numbers (and not just the shiny aggregate statistics) to the public and its partners in the EU, perhaps this situation could be avoided.  And if that's the case, then the onus wouldn't have just been on the government, but rather the citizens and reporters as well -- to analyze this data *independently* and provide the analysis in a reproducible format.
+If it was the responsibility of the Greek Government to report all the numbers to the public fully, in terms of their budgeting, dept and deficit, I can't help but wonder if this situation could've been avoided.  I'm guessing the Greek Gov would continually report aggregated statistics with no way to reproduce the results.  In my opinion, the farther you get get from the raw data, the more room there is for mistakes and manipulation -- malicious or not.
 
-Just thoughts and a rant.  On a much lighter note, (at least as light as the Greek financial situation can be) here's another great video about the crisis, but this time with some rapping involved:
+However, I'll also point out that government transparency is only half the game.  The other part would've been on citizens, reporters, watchdog groups and other EU members to take this data, analyze it ***independently*** and provide the analysis in a reproducible format.  This way it's not just data without the insights, but rather something actionable.
+
+Just thoughts and a rant.  I read the Economist and I watch the news, but I'm no expert so don't listen to me.
+
+On a much lighter note, (at least as light as the Greek financial situation can be) here's another great video about the crisis, but this time with some rapping involved:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ObpSd9DVD9E" frameborder="0" allowfullscreen></iframe>
 <br>
