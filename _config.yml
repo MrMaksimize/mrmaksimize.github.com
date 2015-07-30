@@ -1,6 +1,6 @@
 # Title, decription, tagline and URL for your site
 # Can be used in your theme by calling 'site.title' and so on
-title: Maksim.IO | MrMaksimize
+title: MrMaksimize
 description: Gov, Code, Thoughts. This is a place for me to speak freely and represent no one.
 tagline: Gov Code Thoughts. This is a place for me to speak freely and represent no one.
 url: localhost:4000
