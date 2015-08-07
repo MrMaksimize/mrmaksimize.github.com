@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+- '0.10'
+script: gulp deploy
+env:
+  global:
+  - GH_REF: github.com/mrmaksimize/mrmaksimize.github.com.git
+  - secure: "VkjNqLHcOBgC+yQxLOcWABPYc0Uc6vTvFmonRC08uEVV2KQ48fmA/DaMB6+gkM1AZ6In7rnSNDpasirrNg1SQQT7ZZ7oVJa+BtSNN4uo6aOt/2SKRxCuK0yQ/cd4BdW/RvwDojMB05ZMBS0G92AHudoLH37ASRIDePZrh+/WwoU="
