@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>maksim.io/</loc>
-    <lastmod>2015-08-07T12:56:23-07:00</lastmod>
+    <lastmod>2015-08-10T23:27:12+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -10,7 +10,7 @@
     <url>
       <loc>maksim.io/greek_crisis/</loc>
       
-        <lastmod>2015-07-18T00:00:00-07:00</lastmod>
+        <lastmod>2015-07-18T00:00:00+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -23,7 +23,7 @@
     <url>
       <loc>maksim.io/pdf_extraction_tabula/</loc>
       
-        <lastmod>2014-10-10T00:00:00-07:00</lastmod>
+        <lastmod>2014-10-10T00:00:00+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -36,7 +36,7 @@
     <url>
       <loc>maksim.io/webhooks/</loc>
       
-        <lastmod>2014-09-03T00:00:00-07:00</lastmod>
+        <lastmod>2014-09-03T00:00:00+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -49,7 +49,7 @@
     <url>
       <loc>maksim.io/ghost_continous_deployment/</loc>
       
-        <lastmod>2014-02-08T00:00:00-08:00</lastmod>
+        <lastmod>2014-02-08T00:00:00+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -62,7 +62,7 @@
     <url>
       <loc>maksim.io/why_im_coding_for_america/</loc>
       
-        <lastmod>2014-01-10T00:00:00-08:00</lastmod>
+        <lastmod>2014-01-10T00:00:00+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -75,7 +75,7 @@
     <url>
       <loc>maksim.io/ita_spotlight/</loc>
       
-        <lastmod>2013-10-16T00:00:00-07:00</lastmod>
+        <lastmod>2013-10-16T00:00:00+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -88,7 +88,7 @@
     <url>
       <loc>maksim.io/rails_4_strong_parameters/</loc>
       
-        <lastmod>2013-07-14T00:00:00-07:00</lastmod>
+        <lastmod>2013-07-14T00:00:00+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -101,7 +101,7 @@
     <url>
       <loc>maksim.io/firm_grip_menus_drupal/</loc>
       
-        <lastmod>2013-06-05T00:00:00-07:00</lastmod>
+        <lastmod>2013-06-05T00:00:00+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -114,7 +114,7 @@
     <url>
       <loc>maksim.io/draft-workflow-in-jekyll/</loc>
       
-        <lastmod>2013-04-28T00:00:00-07:00</lastmod>
+        <lastmod>2013-04-28T00:00:00+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -127,7 +127,7 @@
     <url>
       <loc>maksim.io/Custom-UITableViewCell-With-NIB/</loc>
       
-        <lastmod>2012-11-13T00:00:00-08:00</lastmod>
+        <lastmod>2012-11-13T00:00:00+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -140,7 +140,7 @@
     <url>
       <loc>maksim.io/the-zen-of-code/</loc>
       
-        <lastmod>2012-10-23T00:00:00-07:00</lastmod>
+        <lastmod>2012-10-23T00:00:00+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -153,7 +153,7 @@
     <url>
       <loc>maksim.io/the-blog/</loc>
       
-        <lastmod>2012-09-23T00:00:00-07:00</lastmod>
+        <lastmod>2012-09-23T00:00:00+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -167,7 +167,7 @@
   <url>
     <loc>maksim.io/404.html</loc>
     
-      <lastmod>2015-08-07T12:56:23-07:00</lastmod>
+      <lastmod>2015-08-10T23:27:12+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -180,7 +180,7 @@
   <url>
     <loc>maksim.io/about.html</loc>
     
-      <lastmod>2015-08-07T12:56:23-07:00</lastmod>
+      <lastmod>2015-08-10T23:27:12+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -193,7 +193,7 @@
   <url>
     <loc>maksim.io/collections/meta/atom.xml</loc>
     
-      <lastmod>2015-08-07T12:56:23-07:00</lastmod>
+      <lastmod>2015-08-10T23:27:12+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -206,7 +206,7 @@
   <url>
     <loc>maksim.io/atom.xml</loc>
     
-      <lastmod>2015-08-07T12:56:23-07:00</lastmod>
+      <lastmod>2015-08-10T23:27:12+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -219,7 +219,7 @@
   <url>
     <loc>maksim.io/index.html</loc>
     
-      <lastmod>2015-08-07T12:56:23-07:00</lastmod>
+      <lastmod>2015-08-10T23:27:12+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -232,7 +232,7 @@
   <url>
     <loc>maksim.io/collections/index.html</loc>
     
-      <lastmod>2015-08-07T12:56:23-07:00</lastmod>
+      <lastmod>2015-08-10T23:27:12+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -245,7 +245,7 @@
   <url>
     <loc>maksim.io/guides/index.html</loc>
     
-      <lastmod>2015-08-07T12:56:23-07:00</lastmod>
+      <lastmod>2015-08-10T23:27:12+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -258,7 +258,7 @@
   <url>
     <loc>maksim.io/guides/learning-git/index.html</loc>
     
-      <lastmod>2015-08-07T12:56:23-07:00</lastmod>
+      <lastmod>2015-08-10T23:27:12+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -271,7 +271,7 @@
   <url>
     <loc>maksim.io/collections/meta/index.html</loc>
     
-      <lastmod>2015-08-07T12:56:23-07:00</lastmod>
+      <lastmod>2015-08-10T23:27:12+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -284,7 +284,7 @@
   <url>
     <loc>maksim.io/sitemap.xml</loc>
     
-      <lastmod>2015-08-07T12:56:23-07:00</lastmod>
+      <lastmod>2015-08-10T23:27:12+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -297,7 +297,7 @@
   <url>
     <loc>maksim.io/speaking.html</loc>
     
-      <lastmod>2015-08-07T12:56:23-07:00</lastmod>
+      <lastmod>2015-08-10T23:27:12+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -310,7 +310,7 @@
   <url>
     <loc>maksim.io/page2/index.html</loc>
     
-      <lastmod>2015-08-07T12:56:23-07:00</lastmod>
+      <lastmod>2015-08-10T23:27:12+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -323,7 +323,7 @@
   <url>
     <loc>maksim.io/page3/index.html</loc>
     
-      <lastmod>2015-08-07T12:56:23-07:00</lastmod>
+      <lastmod>2015-08-10T23:27:12+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
