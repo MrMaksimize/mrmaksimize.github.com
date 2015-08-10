@@ -6,7 +6,7 @@ before_script:
   - bundle install
   - npm install
   - npm install -g gulp
-script: gulp deploy
+script: jekyll build --config _config.yml,_config.build.yml
 cache:
   directories:
   - node_modules
