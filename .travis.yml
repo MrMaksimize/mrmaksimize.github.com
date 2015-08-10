@@ -1,8 +1,9 @@
-language: node_js
+language: ruby
 sudo: false
-node_js:
-  - '0.12'
+rvm:
+  - 2.1.5
 before_script:
+  - bundle install
   - npm install -g gulp
 script: gulp deploy
 cache:
