@@ -6,7 +6,11 @@ before_script:
   - bundle install
   - npm install
   - npm install -g gulp
-script: gulp publish && gulp deploy
+script: 
+  - git config --global user.email "max@maksimize.com"
+  - git config --global user.name "Maksim Pecherskiy"
+  - gulp publish 
+  - gulp deploy
 cache:
   directories:
   - node_modules
