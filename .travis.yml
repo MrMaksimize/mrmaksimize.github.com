@@ -14,6 +14,9 @@ script:
 cache:
   directories:
   - node_modules
+branches:
+  only:
+    - src
 env:
   global:
   - GH_REF: "github.com/mrmaksimize/mrmaksimize.github.com.git"
