@@ -13,6 +13,11 @@ title: Learning Git
 * [Hello World](https://guides.github.com/activities/hello-world/)
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
+## For those that know, and just want a cheatsheet:
+* [Tower's Git Cheat Sheet](http://www.git-tower.com/blog/git-cheat-sheet/)
+* [Github's Git Cheat Sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+
+
 
 ## But if you REALLY want to learn:
 The first thing you need to do when learning git is to go through the excellent [Try Github](http://try.github.com) tutorial that  GitHub and CodeSchool developed.  You will also want to make a [GitHub](http://github.com) account.  GitHub is NOT git, but it's a way for you to collaborate with others on various projects.
