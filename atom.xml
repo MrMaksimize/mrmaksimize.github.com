@@ -4,13 +4,68 @@
  <title>MrMaksimize</title>
  <link href="maksim.io/atom.xml" rel="self"/>
  <link href="maksim.io/"/>
- <updated>2015-08-10T23:32:22+00:00</updated>
+ <updated>2015-10-14T04:34:48+00:00</updated>
  <id>maksim.io</id>
  <author>
    <name>Maksim Pecherskiy</name>
    <email>max@maksimize.com</email>
  </author>
 
+ 
+ <entry>
+   <title>CfA Summit Presentation</title>
+   <link href="maksim.io/cfa_summit_pres/"/>
+   <updated>2015-10-13T00:00:00+00:00</updated>
+   <id>maksim.io/cfa_summit_pres</id>
+   <content type="html">&lt;p&gt;Speaking at the Code For America Summit&lt;/p&gt;
+
+&lt;p&gt;At the end of September I got a chance to speak at the &lt;a href=&quot;https://www.codeforamerica.org/summit/&quot;&gt;2015 Code For America Summit&lt;/a&gt; with my boss, Almis Udrys.  &lt;/p&gt;
+
+&lt;p&gt;We had the opportunity to do a lightning talk about the government talent pipeline.  We went through an overview of the process of my getting hired at the city of San Diego, which was an interesting process indeed.&lt;/p&gt;
+
+&lt;p&gt;You can catch the video here:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6BGw2Msv2Wg&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Some of the key points we tried to hit:&lt;/p&gt;
+
+&lt;h3&gt;Go to the Candidate&lt;/h3&gt;
+
+&lt;p&gt;The candidates government are often looking for tend to not go trolling around for jobs on government websites.  Find them where they already hang out &amp;ndash; StackOverflow, Meetup Groups, Mailing lists.&lt;/p&gt;
+
+&lt;h3&gt;Involve the Private Sector&lt;/h3&gt;
+
+&lt;p&gt;Private sector participation lends credibility to our process, ensures community buy-in, and helps governments evaluate a candidate’s compatibility in both the public and the private sector.&lt;/p&gt;
+
+&lt;h3&gt;Communicate the Challenge&lt;/h3&gt;
+
+&lt;p&gt;Working in a startup with a 100 people is very different than working in an organization of 11,000.  Being responsible to a few shareholders is very different than having to answer to a few million taxpayers. Cities need to be better at communicating the challenge inherent in this type of scale to applicants.  Taking on these types of challenges is a once in a lifetime opportunity.&lt;/p&gt;
+
+&lt;h3&gt;Be Agile&lt;/h3&gt;
+
+&lt;p&gt;For government to be competitive in attracting technologists it must be innovative, flexible, and make decisions quickly.  &lt;/p&gt;
+
+&lt;h3&gt;Show Humanity&lt;/h3&gt;
+
+&lt;p&gt;When I found out I was going to interview with the Mayor, wasn’t sure whether I should take off the piercings.  A thought process involving a wise Russian, a loud Argentinian  and several Coronas, I decided that I needed to get hired as myself.&lt;/p&gt;
+
+&lt;p&gt;As I walked into the Mayor’s conference room we all sat down.  He asked me if I wanted a cup of coffee.  Like an idiot I said yes, so the Mayor got up and made me a cup of coffee.  &lt;/p&gt;
+
+&lt;p&gt;During the interview a question prompted me to open my laptop, and I did, not giving a thought to the plethora of stickers I had on the lid, including a middle finger sticker.  So my laptop proceeds to flip off the Mayor.&lt;/p&gt;
+
+&lt;p&gt;A culture where the Mayor gives the go ahead to hire the pierced guy whose laptop flipped him off ripples through all ranks of the organization.  If cities have a culture anywhere near as awesome as the City of San Diego does today, they should put that front and center in the hiring process.&lt;/p&gt;
+
+&lt;h3&gt;Support and Mentoring&lt;/h3&gt;
+
+&lt;p&gt;Governments need match the technological skills you’re bringing with mentorship and support.  &lt;/p&gt;
+
+&lt;p&gt;Overall, I definitely enjoyed preparing and doing the talk which seemed to hit a lot of points for people.&lt;/p&gt;
+
+&lt;p&gt;The conference overall was an amazing experience.  It was such a pleasure seeing everyone I&amp;rsquo;ve worked with and interacted with over the years.&lt;/p&gt;
+
+&lt;p&gt;One of my coworkers that came to the conference with us had never been to a conference before. Ever.  This was amazing to me.  I&amp;rsquo;m so glad that the CfA Summit was her first one.  The warm atmosphere and the awesome community definitely gave her a great welcome and she had a blast.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>The Greek Financial Crisis</title>
