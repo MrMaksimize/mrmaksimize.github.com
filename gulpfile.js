@@ -24,7 +24,7 @@ gulp.task('clean:prod', del.bind(null, ['site']));
 
 // Runs the build command for Jekyll to compile the site locally
 // This will build the site with the production settings
-gulp.task('jekyll:dev', $.shell.task('jekyll build'));
+gulp.task('jekyll:dev', $.shell.task('bundle exec jekyll build'));
 gulp.task('jekyll-rebuild', ['jekyll:dev'], function () {
   reload;
 });
