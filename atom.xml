@@ -4,13 +4,166 @@
  <title>MrMaksimize</title>
  <link href="maksim.io/atom.xml" rel="self"/>
  <link href="maksim.io/"/>
- <updated>2015-10-14T04:53:34+00:00</updated>
+ <updated>2016-01-11T04:54:23+00:00</updated>
  <id>maksim.io</id>
  <author>
    <name>Maksim Pecherskiy</name>
    <email>max@maksimize.com</email>
  </author>
 
+ 
+ <entry>
+   <title>What I Learned In One Year as CDO of San Diego</title>
+   <link href="maksim.io/what-i-learned-one-year-cdo/"/>
+   <updated>2016-01-11T00:00:00+00:00</updated>
+   <id>maksim.io/what-i-learned-one-year-cdo</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://mrm-screen.s3.amazonaws.com/JK6HW3Ka-lFo1s3CiBB9MemZYO7Oi1wUAlDb4iKf32Q.jpeg&quot; alt=&quot;Maksim Council&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Fairly recently, I celebrated my 1 year anniversary of being with the city of San Diego as the Chief Data Officer. Naturally, I’ve been reflecting on my first year in government, and one of the things that strikes me the most is the amount of things that I learned. &lt;/p&gt;
+
+&lt;p&gt;Some things I learned on my own &amp;ndash; in many cases I invested in supplementary learning in order to succeed.  Others I can directly attribute to conversations with my boss, Almis, my teammates in &lt;a href=&quot;http://sandiego.gov/pad&quot;&gt;Performance and Analytics&lt;/a&gt;, the City’s IT staff, and so many others that if I list them all, this would be a spreadsheet, not a blog post. &lt;/p&gt;
+
+&lt;p&gt;To be completely honest &amp;ndash; I had my hesitations about taking a local government job.  I was worried I wouldn’t advance my technological skill, and potentially lose many of the marketable skills I possess.  However, looking back on this year, taking a government job has proven to be one of the smartest and challenging things I’ve ever done.  There is no other place I can think of that would push me so far out of my comfort zone, in so many different directions, while providing me the help and support to succeed.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2&gt;Technical Skills&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://mrm-screen.s3.amazonaws.com/FkfrZF40zVTufzhDi4YTumNGu6LEAPRoMSllrUPmNyU.jpg&quot; alt=&quot;Tools&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tools for the Job.&lt;/strong&gt; I’m proud to say that I have a very wide expertise in a diverse range of technologies, languages and stacks.  I walked into this job with a preconception that my large toolbox can solve a variety of problems quickly.  Instead, I quickly realized that in order to use my toolbox effectively, I needed to understand all the intricate non-technological complexities such as strategy, culture, processes, and even words used to describe things.  What&amp;rsquo;s more, I had to expand my toolbox with more open source and not-so-open-source tools.  The City is a large enterprise, and not everything can be solved by cloning a repo or a $30 a month subscription. This intangible skill of understanding City operations and figuring out the details of how to apply the correct technology has been one of my biggest learnings this year.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R Language.&lt;/strong&gt; This past year, I learned the &lt;a href=&quot;https://www.r-project.org/&quot;&gt;R language&lt;/a&gt; - the first data-focused language I’ve used. In addition to learning the language itself, I learned how to communicate research and data analysis through detailed and reproducible reports.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Google Apps Script.&lt;/strong&gt; I wouldn’t necessarily say that I &amp;ldquo;learned&amp;rdquo; it, but I definitely became much more familiar with the capacities of Apps Script for handling large amounts of documents programmatically.  This code ran a lot of our initial data inventory.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GIS.&lt;/strong&gt; Through our wonderful GIS manager, &lt;a href=&quot;https://www.arcgis.com/features/&quot;&gt;ArcGIS&lt;/a&gt; and &lt;a href=&quot;https://cartodb.com/&quot;&gt;CartoDB&lt;/a&gt;, I became much more familiar with GIS operations and concepts. However, I would place myself very far from expert level.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://take.ms/ijqAB&quot; alt=&quot;Cyber&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cybersecurity.&lt;/strong&gt; Something we often don’t think about when it comes to cities is the massive need for cybersecurity. Cities are constantly getting hit and need robust and well-managed cybersecurity programs in place. I have become good friends with the CISO and the Cyber team in San Diego and learned quite a bit about their strategies, technologies and methods.  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enterprise IT.&lt;/strong&gt; We often like to make fun of &amp;ldquo;antiquated&amp;rdquo; City technology like SAP and Oracle. However, these are still massive companies running multi-million dollar projects and are not going away soon. I’ve worked quite a bit with IT to understand the ecosystems and infrastructure that manage these large datastores within the City.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;So Many Datastores.&lt;/strong&gt; This brings me to the diversity of datastores within the City. From a technical level, I’ve been exposed to a variety of SAP, Oracle, Microsoft and ESRI products. This year, I’ve had lots of technology land on my plate. Even though this isn’t very sexy, going down the journey of learning these technologies has been a blast.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Networks.&lt;/strong&gt; Working with IT to understand the City’s networks, I’ve learned a ton about the City’s DNS architecture, networks, configuration management, desktop management, Active Directory and so much more.  The City also does a lot of cool things, such as producing its own TV station.  We even have a truck that can pull up to a location and provide wi-fi and cellular communications in emergencies.&lt;/p&gt;
+
+&lt;h2&gt;Strategic Skills&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Technological Interventions.&lt;/strong&gt; Operational improvement opportunities that would otherwise remain hidden often surface when a public-facing data visualization or analysis is on the horizon. It’s a fortunate thing I work in a department that cares to fix those as well.  I have also begun to explore how to use what I call &amp;ldquo;technological interventions&amp;rdquo; strategically to discover problems in processes of collecting, generating and sharing data across systems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Communicating with Executives.&lt;/strong&gt; In the course of my work, I had to learn how to work with elected officials and high level executives. I learned how to properly scale the level of detail while explaining complex technical concepts and challenges. Scaling detail is extremely important because it’s often necessary for me to walk a fine line between confusing the person I’m talking to and providing them with the amount of information necessary for them to make a decision.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://take.ms/kN0t2&quot; alt=&quot;Boss&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Managing up&lt;/strong&gt; became very important as well. My boss is extremely flexible and understanding, but oftentimes he doesn’t need to (or really want to) be deeply involved in the details of my decision making and thought processes: he empowers me, which is both scary and great.  It makes sense too: he really doesn’t need to know all the variables I’m weighing when deciding on a technology or working on a project.  By managing up, I’m able to keep his expectations at the proper levels while giving myself a good amount of flexibility to change my mind.  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Managing Meetings.&lt;/strong&gt; Government is notorious for having a meeting-loving culture. I learned how to manage and limit the amount of meetings that I end up involved with, while making sure that I maintain relationships and remain apprised of what’s going on.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Evaluating technology&lt;/strong&gt; in the context of the City, or rather in the context of enterprise IT requires weighing many factors.  I learned a lot about how to evaluate technological solutions in this type of context.  How does a piece of software fit into the larger IT roadmap?  What do the service level agreements and maintenance options look like?  Is it better to get Open Source or proprietary solutions?  How will this impact the City’s cybersecurity risk exposure?  What is the price point and what are the related procurement rules dictating the process we’ll go through?  All these factors weigh into evaluating a piece of software in a large IT environment.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hacking People, no USB cable required&lt;/strong&gt;.  No, really, I learned how to get 65 non-technical people who have other jobs to answer my questions about what data they have, make it extremely easy for them to do so, and not have them hate you afterwards.  Oh, and only have one large meeting through that whole process.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Shipping.&lt;/strong&gt; I learned quite a bit about how to balance the inherent complexity of being a CDO of a massive organization with designing the correct architecture, building a sustainable infrastructure, and well, shipping.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;More Shipping.&lt;/strong&gt; Elaborating on the point above, I tend to lean more on the perfectionist side of being a programmer.  I’ll think deeply about choosing the right framework, picking the right stack and overall making sure I’m doing things &amp;ldquo;right&amp;rdquo;.  In the past, this caused unnecessary slowdowns in some of my projects.  However, in this past year, when I had a much smaller part of my time to be a developer, I noticed myself being able to adjust my “perfectionist” strategies towards a strategy where I just write some code, and refactor if I’m going to keep it.  It seems like a minor shift, but being able to accept imperfection in my own code has allowed me to prototype a lot more, a lot faster.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technology Perception Gaps.&lt;/strong&gt; I’ve learned to see and more clearly understand the gap between the public’s perception of Open Data and the technology and effort needed to deliver data that isn’t just open, but is accurate and complete.  While this gap exists in the Open Data space, I would argue that this gap exists in many perceptions that the public has about City IT.  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Learning from Private Sector.&lt;/strong&gt; I often seek out sources of inspiration for my work by attending private sector events, training sessions, and simply communicating with technology communities that I’m used to working with. I also love to interact with other governments to see how they’re doing things. However, not everything that works in the private sector works in the government space. I learned quite a bit about how to learn (and not learn) from the private sector and relate it to our work at the City.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Open Data Activation Points.&lt;/strong&gt; I’ve begun to see &amp;ldquo;Activation Points&amp;rdquo; for open data – where opening data ties in smooth as butter with a current City initiative. (Sustainability, Performance Management, Public Records Act Requests (PRA)).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Building and running a data team&lt;/strong&gt; is a leadership, strategic and tactical challenge.  I have learned, and am still learning a lot about how to build one, ramp it up, and align the correct pieces for delivery.&lt;/p&gt;
+
+&lt;h2&gt;Departments / City Operations&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://mrm-screen.s3.amazonaws.com/CDzAoLRdhebNHFZ8wzpFfVS4WQHoGXNHwd3mwCq4ZRg.jpg&quot; alt=&quot;LifeGuard&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lifeguards.&lt;/strong&gt; I learned a ton about what lifeguards do, how they operate, and some of the technological challenges of the job.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Police.&lt;/strong&gt; I explored how the City’s Police Department works with bar owners in the Gaslamp to create a safer area, handle barbreak (when all the bars let out) and prevent crime.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://mrm-screen.s3.amazonaws.com/blGfuh6Z8Li39Vgz78R0GeNf69cEAlFB3ddcR1XoOSY.jpg&quot; alt=&quot;BarBreak&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Street Work.&lt;/strong&gt; I know much more about how the City’s street work gets done, and the different types of repair jobs.  I was also surprised to find out that the City does a proactive job of making sure that money isn’t wasted by having the same street repaved multiple times in a short period.  Because of various responsibilities different departments have when it comes to digging up a street, they do a lot of work to coordinate the timing of the construction.  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PRAs.&lt;/strong&gt; Many people outside of government or journalism don’t even know about PRAs.  Working with the City’s PRA coordinator, I’ve learned a ton about the legalities of the process and how they work within the City.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Emergency Response.&lt;/strong&gt; Do you know what to do if an earthquake hits? Your City officials do - they often conduct training and simulations for different disaster scenarios.  I got to explore this as well. They have a &amp;ldquo;situation room&amp;rdquo; in one of the buildings, stocked with food and computers. Learning about the City’s ways of managing disaster has been nothing short of amazing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://mrm-screen.s3.amazonaws.com/n7fTr2uXzd7lHJZDRClDslP2Pqgv5l7Jc9mxPkwgykU.jpg&quot; alt=&quot;Crap&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Crap.&lt;/strong&gt; I learned all about what happens to the crap we flush. It’s actually way more interesting than it sounds. This is a story that encompasses poop, energy generation, earplugs, and seals.  Where did I learn about this?  The &lt;a href=&quot;http://www.sandiego.gov/mwwd/facilities/ptloma/&quot;&gt;Point Loma Wastewater Treatment Plant&lt;/a&gt; - an automated plant that serves 2.2 million residents run by only 50 people.&lt;/p&gt;
+
+&lt;h2&gt;Communications and Community&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Talking Louder.&lt;/strong&gt; I have been a quiet and shy speaker for most of my life.  However, when I started this job, I quickly learned (with Almis’ advice) that I needed to overcome that.  I took several months of improv classes (which were a blast) and while I’m still working up to having a booming voice, I can definitely say that I haven’t been asked to speak louder in a long time.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://mrm-screen.s3.amazonaws.com/RhYlSZwxJ38x_YJ96g3EvW4ivMzPpFbYuOdf_twbQyY.jpg&quot; alt=&quot;Press&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Press.&lt;/strong&gt; I learned a lot about how to talk and work with the press. It was really fascinating to learn the role of press in government and how the City handles communication with journalists.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Public Speaking.&lt;/strong&gt; I still need to tally up how much public speaking I’ve done this year, but it was definitely more than I’ve ever done in my life. There’s plenty of things I learned in this arena this year, such as structuring effective presentations, storytelling, and other skills.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://take.ms/qrrSK&quot; alt=&quot;Ignite&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ignite Talk.&lt;/strong&gt; I gave an &lt;a href=&quot;https://www.youtube.com/watch?v=IvABvAM11XM&quot;&gt;Ignite Talk&lt;/a&gt; about the data flowing through a City block.  Obviously, I learned how to give an Ignite talk, which in itself is a very difficult, but ultimately rewarding experience.  But through that process I discovered how much I knew about the data flowing through cities &amp;ndash; and how much I have yet to learn.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reporting to Council.&lt;/strong&gt; I also got to prepare a report to the City council and present it - a learning experience in and of itself. As a side note, as part of getting the &lt;a href=&quot;https://datasd.gitbooks.io/council_report/&quot;&gt;Open Data Implementation Update&lt;/a&gt; ready for council, I ended up making a &lt;a href=&quot;https://github.com/GitbookIO/gitbook/pull/813&quot;&gt;pull request&lt;/a&gt; to a major open-source software project.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Community Building.&lt;/strong&gt; I always felt that in order for Open Data to be successful in San Diego, we needed to have a strong Civic Tech community. Before, this was far from the case. Now, we’re much closer – I’ve learned a ton about how to put the right people in the right place to get the community moving. I&amp;rsquo;m very excited about the &lt;a href=&quot;https://github.com/opensandiego&quot;&gt;work&lt;/a&gt; &lt;a href=&quot;http://www.meetup.com/Open-San-Diego/&quot;&gt;Open San Diego&lt;/a&gt; has accomplished in the past year.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://mrm-random.s3.amazonaws.com/dz/2015-05-19%2018.03.23.jpg&quot; alt=&quot;Meters&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Connecting Geeks to Government.&lt;/strong&gt; In addition to building the community, I’ve always strongly felt there was a missing connection between CfA Brigade members, residents, and City employees. Bringing various people in the City-people I greatly respect-to talk about what they do with the brigade has been an invaluable learning experience both for me, the brigade, and the employees. I think we often forget how freaking cool City government can be.&lt;/p&gt;
+
+&lt;h2&gt;Surprises&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://mrm-screen.s3.amazonaws.com/L3m6_FmcRUPXoQ02fttrdGrayRX_GPPVFY4XZHKmSHs.jpg&quot; alt=&quot;Surprises&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Passion.&lt;/strong&gt; I was surprised about how I feel after a conversation with a City employee (not everyone of course, but so many of them). For example, I talked to someone about parking meters and was inspired and excited after that conversation. It’s amazing to see people that have just as much passion for their craft as many programmers do for theirs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data geeks.&lt;/strong&gt; I’m not talking &amp;ldquo;analysts&amp;rdquo;. I’m talking about the people that geek out over Excel macros and SQL queries. Or GIS. There aren’t many of them in the City, but they’re there. It takes a while to find them too. But once you do – wow – they can teach you so much and are such a pleasure to work with.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Literacy.&lt;/strong&gt; How people think about what data is, how they define data, how they understand KPIs and metrics has been a challenge that I have enjoyed learning about and solving.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://mrm-screen.s3.amazonaws.com/UFqXeLkzS_tU-kcuoIENvcWWKXtVxA4o-eKzR1RkTQs.jpg&quot; alt=&quot;Clifton&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Open Doors.&lt;/strong&gt; Many people already recognize the potential for decreased workload and better communications that opening data carries. I was extremely surprised how many people approached me, excited for their data to be opened up.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;State of The City.&lt;/strong&gt; Did you know that just like the President does an annual State of the Union, many mayors do a State of the City Address? I didn’t. It was amazing to see it get put together, how many people work on it, and some of the things I learned by attending.  Also it was pretty sweet to get a shout from Mayor Faulconer just a month into the job. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dependencies.&lt;/strong&gt; I noticed a distinct difference between how I’m used to working to how I have to work in the City.  In my previous jobs as a software developer and architect, I could generally forge my own path and minimize a lot of critical reliance on other people.  In the City I feel highly leveraged &amp;ndash; oftentimes the support of others is absolutely critical.  I haven’t thought too far down this path yet, but will be exploring it.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://mrm-screen.s3.amazonaws.com/G1y5CL8dOxX9UY-xN9VyE0e_ELxvtxgN0VM0NWr-Ly8.jpg&quot; alt=&quot;Delegation Pres&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Internationalizing.&lt;/strong&gt; I’ve had the opportunity to present to Macedonian and Philippine delegations. In the Mayor’s conference room. About Open Data. Nuff said.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CNAMEs.&lt;/strong&gt; When we were launching OpenGov - our budget tool, I thought it would be great for us to map it to &lt;a href=&quot;http://budget.sandiego.gov&quot;&gt;http://budget.sandiego.gov&lt;/a&gt;.  The saga that happened while I was trying to do something fairly simple &amp;ndash; just map a CNAME to a domain &amp;ndash; was a journey I will never forget.  &lt;/p&gt;
+
+&lt;h2&gt;Random&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Vendors.&lt;/strong&gt; Working with vendors has been good, bad and ugly. There is so much to write about here: from evaluating proposals and negotiating; to the &amp;ldquo;classifications&amp;rdquo; of vendors I’ve begun to unofficially define based on what they sell and how they sell it; to how they can have better strategy and products. We have developed numerous ways to streamline the process of vendor pitches by having a standard method and questions that they have to use to get in touch with us. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;City Awards and Competitions&lt;/strong&gt;, run by various think tanks and vendors are also something I’ve been reflecting on lately. While having some value, a lot of times they appear to be run more for the benefit of a vendor looking to score more government contracting opportunities.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Time Management.&lt;/strong&gt; I’ve had to implement rigid time management methodologies because of the amount of noise often coming on my plate. While this may seem like an underwhelming learned lesson, I would say this is what has allowed me to become the most effective.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project Management.&lt;/strong&gt; When you have an organization of 11,000 people, IT projects quickly start to look a little different. Sometimes there’s a legitimate need for a strong project management methodology. Sometimes there isn’t. I’ve learned quite a bit about how the City runs large IT projects&amp;ndash;and small ones.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hiring.&lt;/strong&gt; As part of hiring my first employee, I got to be on the hiring side, all the way through the recruitment process. I ended up taking notes for myself, for, you know, the next time I have to look for a job. It was super valuable.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://mrm-screen.s3.amazonaws.com/yNAvvjKDqmoQ9kuo6t1zliN2FESeAWh8XHr3y1tIrTA.jpg&quot; alt=&quot;Sup Academy&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Supervising.&lt;/strong&gt; Because I was getting a new employee, I had to go through the City’s &amp;ldquo;Supervisor’s Academy&amp;rdquo;. This was a seven day course, outlining everything from City support for employees experiencing various issues, to ethics, to leadership. I found it extremely useful and learned a ton about, well, being a good supervisor.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ethics.&lt;/strong&gt; I learned a bit of how ethics and campaign finance work in the City context, and had some fairly interesting conversations with the Ethics commission, including one about the limits on what expenses can and cannot be covered by a conference organizer who invites me to present at a conference.&lt;/p&gt;
+
+&lt;p&gt;In summarizing my experience at the City, the main thing that surprised me this year was how much I was pushed out of my boundaries, and how many things I’ve done that I never thought I could or would do. Everything from learning a new language, doing an Ignite talk, to learning how to be a better communicator and leader, I can attribute to being a City employee in one way or another. Now that year 1 is behind me, I’m stoked for year 2.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>CfA Summit Presentation</title>
