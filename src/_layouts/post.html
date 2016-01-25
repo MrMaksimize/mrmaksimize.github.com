@@ -1,29 +1,49 @@
----
-layout: default
----
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
+<!-- Post Layout Start -->
 
-</div>
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
 
+  {% include head.html %}
 
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+  <body>
 
-{% include disqus_comments.html %}
+    {% include navigation.html %}
+
+    <section id="post" class="container content-section text-center">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+
+          {% include swipe-instructions.html %}
+
+          <h1><strong>{{ page.title }}</strong></h1>
+          <h4><strong>{{ page.date | date_to_string }}</strong>
+            <small> . {{ page.category }} . <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
+            {% for tag in page.tags %}
+              <a href="{{site.baseurl}}/tags/{{tag}}.html">#{{ tag }}</a>
+            {% endfor %}
+            </small>
+          </h4>
+
+          {{ page.content | markdownify }}
+
+          {% include share.html %}
+
+          {% if jekyll.environment == "production" %}
+            {% include comments.html %}
+          {% endif %}
+
+          {% include social-buttons.html %}
+
+        </div>
+      </div>
+    </section>
+
+    {% include footer.html %}
+
+    {% include js.html %}
+
+  </body>
+</html>
+
+<!-- Post Layout End -->

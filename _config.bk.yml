@@ -1,0 +1,56 @@
+# Title, decription, tagline and URL for your site
+# Can be used in your theme by calling 'site.title' and so on
+title: MrMaksimize
+description: Gov, Code, Thoughts. This is a place for me to speak freely and represent no one.
+tagline: Gov Code Thoughts. This is a place for me to speak freely and represent no one.
+url: localhost:4000
+disqus_shortname: mrmaksimize
+sidebar_img: http://mrm-random.s3.amazonaws.com/dz/maksim.jpg
+
+# Used so Jekyll outputs the site correctly so Gulp can do what it wants
+source: src
+destination: serve
+
+# Same as the title etc for your site but can instead be
+# called by using 'site.author.name' and so on
+author:
+  name: Maksim Pecherskiy
+  email: max@maksimize.com
+  bio: Chief Data Officer, City of San Diego
+  twitter: mrmaksimize
+  github: mrmaksimize
+  linkedin: maxpecherskiy
+
+# general setting for Jekyll
+googleAnalytics: 'UA-31205267-1'
+
+# _config.build.yml overwrites these options when you run `gulp build`
+# Enables future posts (posts with dates in the future) and drafts
+future: true
+show_drafts: true
+# Disables the more accurate related posts for faster generating of the site
+lsi: false
+# Only make the last 10 posts so generating isn't slow
+limit_posts: 10
+
+# Permalink structure and pagination options
+relative_permalinks: true
+permalink:   /:title/
+paginate: 5
+paginate_path: 'page:num'
+excerpt_separator: '<!--break-->'
+
+# Markdown library
+markdown: redcarpet
+# Markdown library options
+redcarpet:
+  extensions: ['no_intra_emphasis', 'tables', 'fenced_code_blocks', 'autolink', 'smart',
+              'strikethrough', 'superscript', 'underline', 'highlight', 'footnotes']
+highlighter: true
+
+#Tagging
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_feed_layout: tag_feed
+tag_feed_dir: tag
+
