@@ -75,7 +75,7 @@ lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "Where’s your will to be weird?"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "http://mrm-screen.s3.amazonaws.com/me_clif.jpg"
 
 ################
 # Web app mode #
@@ -111,7 +111,7 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "panossakkos"
+disqus-shortname: "mrmaksimize"
 
 syntax-highlight: True
 
@@ -120,16 +120,35 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
+  - image: "https://octodex.github.com/images/agendacat.png"
+    date: "November 2014 - Today"
+    description: "CDO @ City of San Diego"
   - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+    date: "January 2014 - Nomber 2014"
+    description: "Fellow @ Code For America"
+  - image: "https://octodex.github.com/images/steroidtocat.png"
+    date: "March 2013 - January 2014"
+    description: "Senior Developer / Solutions Architect @ Promet Source"
+  - image: "https://octodex.github.com/images/gangnamtocat.png"
+    date: "May 2011 - February 2013"
+    description: "Software Developer @ AllPlayers"
+  - image: "https://octodex.github.com/images/luchadortocat.png"
+    date: "September 2009 - May 2011"
+    description: "Software Developer @ MrMaksimize"
+  - image: "https://octodex.github.com/images/setuptocat.jpg"
+    date: "August 2008"
+    description: "First met Clifton (my cat)"
+  - image: "https://octodex.github.com/images/foundingfather_v2.png"
+    date: "September 1996"
+    description: "Arrived to Chicago from Ukraine"
+  - image: "https://octodex.github.com/images/total-eclipse-of-the-octocat.jpg"
+    date: "September 1993"
+    description: "First got my hands on a a computer"
+
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "https://octodex.github.com/images/spidertocat.png"
 
 ###########
 # Contact #
