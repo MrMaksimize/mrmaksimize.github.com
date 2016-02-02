@@ -186,7 +186,8 @@ social:
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
+  Speaking: 'latest-post'
+  Writing: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
 
